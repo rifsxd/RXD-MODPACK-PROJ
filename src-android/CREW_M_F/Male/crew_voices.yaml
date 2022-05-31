@@ -62,3 +62,13 @@ tanks:
     "japan:PzVI_GuP": "rxd_gup"
     "japan:Firefly_GuP": "rxd_gup"
     "japan:IS-2_GuP": "rxd_gup"
+#--- Fury M4 >--->
+    "usa:A104_M4A3E8A": "rxd_fury" # main fury
+    "usa:M4_Sherman": "rxd_fury"
+    "usa:M4A2E4": "rxd_fury"
+    "usa:M4A3E8_BP": "rxd_fury"
+    "usa:M4A3E8_Sherman": "rxd_fury"
+    "usa:M4A3E8TU": "rxd_fury"
+    "uk:GB19_Sherman_Firefly": "rxd_fury"
+    "uk:GB_Sherman_V": "rxd_fury"
+#--- Fury M4 <---<
