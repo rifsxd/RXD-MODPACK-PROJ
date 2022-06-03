@@ -184,8 +184,8 @@ sounds_general:
     TASK_COMPLETE: "GUI/notifications_FX/task_complete"
     VICTORY_PC: "RXD_GUI_notifications_FX_victory_PC"
     VICTORY_NPC: "RXD_GUI_notifications_FX_victory_NPC"
-    AUTO_ON: "RXD_GUI_notifications_FX_auto_target_on"
-    AUTO_OFF: "RXD_GUI_notifications_FX_auto_target_off"
+    AUTO_ON: "RXD_AUTO_ON"
+    AUTO_OFF: "RXD_AUTO_OFF"
     PERK_SKILLED_RANGING: "RXD_GUI_notifications_FX_perk_shooter"
     PERK_SKILLED_RANGING_ACTIVATE: "RXD_GUI_notifications_FX_perk_shooter max"
     CHAT_NOTIFICATION: "RXD_GUI_notifications_FX_minimap_attention"
@@ -201,14 +201,14 @@ sounds_general:
     EQUIPMENT_AFTERBURNER_END: "RXD_GUI_notifications_FX_furious_off"
     EQUIPMENT_RECOVERKIT: "RXD_GUI_notifications_FX_restorer"
     EQUIPMENT_EXTINGUISHER: "RXD_GUI_notifications_FX_fire_extinguisher"
-    QCOMMAND_POSITIVE: "RXD_GUI_notifications_FX_quick_commands/positive"
-    QCOMMAND_NEGATIVE: "RXD_GUI_notifications_FX_quick_commands/negative"
-    QCOMMAND_HOLD_POSITION: "RXD_GUI_notifications_FX_quick_commands/reloading"
-    QCOMMAND_HELP_ME: "RXD_GUI_notifications_FX_quick_commands/help_me"
-    QCOMMAND_CAPTURE_BASE: "RXD_GUI_notifications_FX_quick_commands/capture_base"
-    QCOMMAND_DEFEND_BASE: "RXD_GUI_notifications_FX_quick_commands/defend_base"
-    QCOMMAND_ATTACK: "RXD_GUI_notifications_FX_quick_commands/attack"
-    QCOMMAND_ATTACK_TARGET: "RXD_GUI_notifications_FX_quick_commands/attack_target"
+    QCOMMAND_POSITIVE: "RXD_QCOMMAND_POSITIVE"
+    QCOMMAND_NEGATIVE: "RXD_QCOMMAND_NEGATIVE"
+    QCOMMAND_HOLD_POSITION: "RXD_QCOMMAND_HOLD_POSITION"
+    QCOMMAND_HELP_ME: "RXD_QCOMMAND_HELP_ME"
+    QCOMMAND_CAPTURE_BASE: "RXD_QCOMMAND_CAPTURE_BASE"
+    QCOMMAND_DEFEND_BASE: "RXD_QCOMMAND_DEFEND_BASE"
+    QCOMMAND_ATTACK: "RXD_QCOMMAND_ATTACK"
+    QCOMMAND_ATTACK_TARGET: "RXD_QCOMMAND_ATTACK_TARGET"
     QCOMMAND_MENU_OPEN: "GUI/notifications_FX/quick_commands/open"
     QCOMMAND_MENU_CLOSE: "GUI/notifications_FX/quick_commands/close"
     CHAT_TO_SQUAD: "RXD_GUI_notifications_FX_chat/chat_to_squad"
@@ -219,50 +219,50 @@ sounds_general:
     CHAT_FROM_ALL: "RXD_GUI_notifications_FX_chat/chat_from_all"
     FIRE_STARTED_FX: "tank_physics/tank_breakdown/fire_started_FX"
 crew_voices:
-    VOICE_START_BATTLE: "ingame_voice/notifications_VO/start_battle"
-    ENEMY_NO_PIERCING_BY_PLAYER:             "ingame_voice/notifications_VO/armor_not_pierced_by_player" #попал и не пробил
-    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_BY_PLAYER: "ingame_voice/notifications_VO/armor_not_pierced_by_player" #попал и не пробил
-    ENEMY_HP_DAMAGED_BY_PROJECTILE_BY_PLAYER:                     "ingame_voice/notifications_VO/armor_pierced_by_player" #попал и пробил
-    ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_CHASSIS_DAMAGED_BY_PLAYER: "ingame_voice/notifications_VO/armor_pierced_by_player" #попал и повредил ходовую
-    ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_GUN_DAMAGED_BY_PLAYER:     "ingame_voice/notifications_VO/armor_pierced_by_player" #попал и повредил орудие
-    ENEMY_HP_DAMAGED_BY_EXPLOSION_AT_DIRECT_HIT_BY_PLAYER:        "ingame_voice/notifications_VO/armor_pierced_by_player" #попал и повредил
-    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER:    "ingame_voice/notifications_VO/armor_pierced_crit_by_player" #не пробил, но повредил ходовую
-    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER:        "ingame_voice/notifications_VO/armor_pierced_crit_by_player" #не пробил, но повредил орудие
-    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_BY_PLAYER:                     "ingame_voice/notifications_VO/armor_pierced_crit_by_player" #попал но не повредил
-    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER: "ingame_voice/notifications_VO/armor_pierced_crit_by_player" #попал и повредил ходовую
-    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER:     "ingame_voice/notifications_VO/armor_pierced_crit_by_player" #попал и повредил орудие
-    ENEMY_RICOCHET_BY_PLAYER: "ingame_voice/notifications_VO/armor_ricochet_by_player" #рикошет
-    VOICE_ALLY_KILLED: "ingame_voice/notifications_VO/ally_killed_by_player"
-    ENEMY_FIRE_STARTED_BY_PLAYER: "ingame_voice/notifications_VO/enemy_fire_started_by_player" #враг горит
-    VOICE_ENEMY_KILLED: "ingame_voice/notifications_VO/enemy_killed_by_player" #готов!
-    fire_started: "ingame_voice/notifications_VO/fire_started" #Танк горит
-    fire_stopped: "ingame_voice/notifications_VO/fire_stopped" #Пожар потушен
-    ammo_bay_damaged: "ingame_voice/notifications_VO/ammo_bay_damaged"
-    fuel_tank_damaged: "ingame_voice/notifications_VO/fuel_tank_damaged"
-    radio_damaged: "ingame_voice/notifications_VO/radio_damaged"
-    track_cut: "ingame_voice/notifications_VO/track_cut" #Гусеница сбита. Возможно движение назад
-    track_damaged: "ingame_voice/notifications_VO/track_damaged"
-    track_destroyed: "ingame_voice/notifications_VO/track_destroyed"
-    track_functional_can_move: "ingame_voice/notifications_VO/track_functional_can_move"
-    track_functional: "ingame_voice/notifications_VO/track_functional"
-    gun_damaged: "ingame_voice/notifications_VO/gun_damaged"
-    gun_destroyed: "ingame_voice/notifications_VO/gun_destroyed"
-    gun_functional: "ingame_voice/notifications_VO/gun_functional"
-    surveying_devices_damaged: "ingame_voice/notifications_VO/surveying_devices_damaged"
-    surveying_devices_destroyed: "ingame_voice/notifications_VO/surveying_devices_destroyed"
-    surveying_devices_functional: "ingame_voice/notifications_VO/surveying_devices_functional"
-    turret_rotator_damaged: "ingame_voice/notifications_VO/turret_rotator_damaged"
-    turret_rotator_destroyed: "ingame_voice/notifications_VO/turret_rotator_destroyed"
-    turret_rotator_functional: "ingame_voice/notifications_VO/turret_rotator_functional"
-    engine_damaged: "ingame_voice/notifications_VO/engine_damaged"
-    engine_destroyed: "ingame_voice/notifications_VO/engine_destroyed"
-    engine_functional: "ingame_voice/notifications_VO/engine_functional"
-    VOICE_VEHICLE_DESTROYED: "ingame_voice/notifications_VO/vehicle_destroyed" #уничтожен
-    commander_killed: "ingame_voice/notifications_VO/commander_killed"
-    driver_killed: "ingame_voice/notifications_VO/driver_killed"
-    gunner_killed: "ingame_voice/notifications_VO/gunner_killed"
-    loader_killed: "ingame_voice/notifications_VO/loader_killed"
-    radioman_killed: "ingame_voice/notifications_VO/radioman_killed"
+    VOICE_START_BATTLE: "RXD_VOICE_START_BATTLE"
+    ENEMY_NO_PIERCING_BY_PLAYER: "RXD_ENEMY_NO_PIERCING_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_BY_PLAYER: "RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_BY_PLAYER"
+    ENEMY_HP_DAMAGED_BY_PROJECTILE_BY_PLAYER: "RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_BY_PLAYER"
+    ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_CHASSIS_DAMAGED_BY_PLAYER: "RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_CHASSIS_DAMAGED_BY_PLAYER"
+    ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_GUN_DAMAGED_BY_PLAYER: "RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_GUN_DAMAGED_BY_PLAYER"
+    ENEMY_HP_DAMAGED_BY_EXPLOSION_AT_DIRECT_HIT_BY_PLAYER: "RXD_ENEMY_HP_DAMAGED_BY_EXPLOSION_AT_DIRECT_HIT_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER: "RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER: "RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_BY_PLAYER: "RXD_ENEMY_NO_PIERCING_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER: "RXD_ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER"
+    ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER: "RXD_ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER"
+    ENEMY_RICOCHET_BY_PLAYER: "RXD_ENEMY_RICOCHET_BY_PLAYER"
+    VOICE_ALLY_KILLED: "RXD_VOICE_ALLY_KILLED"
+    ENEMY_FIRE_STARTED_BY_PLAYER: "RXD_ENEMY_FIRE_STARTED_BY_PLAYER"
+    VOICE_ENEMY_KILLED: "RXD_VOICE_ENEMY_KILLED"
+    fire_started: "RXD_fire_started"
+    fire_stopped: "RXD_fire_stopped"
+    ammo_bay_damaged: "RXD_ammo_bay_damaged"
+    fuel_tank_damaged: "RXD_fuel_tank_damaged"
+    radio_damaged: "RXD_radio_damaged"
+    track_cut: "RXD_track_cut"
+    track_damaged: "RXD_track_damaged"
+    track_destroyed: "RXD_track_destroyed"
+    track_functional_can_move: "RXD_track_functional_can_move"
+    track_functional: "RXD_track_functional"
+    gun_damaged: "RXD_gun_damaged"
+    gun_destroyed: "RXD_gun_destroyed"
+    gun_functional: "RXD_gun_functional"
+    surveying_devices_damaged: "RXD_surveying_devices_damaged"
+    surveying_devices_destroyed: "RXD_surveying_devices_destroyed"
+    surveying_devices_functional: "RXD_surveying_devices_functional"
+    turret_rotator_damaged: "RXD_turret_rotator_damaged"
+    turret_rotator_destroyed: "RXD_turret_rotator_destroyed"
+    turret_rotator_functional: "RXD_turret_rotator_functional"
+    engine_damaged: "RXD_engine_damaged"
+    engine_destroyed: "RXD_engine_destroyed"
+    engine_functional: "RXD_engine_functional"
+    VOICE_VEHICLE_DESTROYED: "RXD_VOICE_VEHICLE_DESTROYED"
+    commander_killed: "RXD_commander_killed"
+    driver_killed: "RXD_driver_killed"
+    gunner_killed: "RXD_gunner_killed"
+    loader_killed: "RXD_loader_killed"
+    radioman_killed: "RXD_radioman_killed"
 free_data_groups:
     BATTLE_GROUP:
      -
