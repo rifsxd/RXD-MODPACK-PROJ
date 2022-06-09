@@ -23,7 +23,7 @@ DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputBaseFilename=RxD-ModPack-Installer
+OutputBaseFilename=rxd-modpack-autoinstaller_2.0-9.0-src-steam-blitz
 SetupIconFile=E:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
 Compression=lzma
 SolidCompression=yes
