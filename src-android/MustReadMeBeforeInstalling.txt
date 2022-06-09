@@ -8,4 +8,4 @@ To install the modpack first make a backup or change the name of the existing bl
  - then install the apk i have provided, after installing the apk is complete, now copy paste back the blitz game data folder "net.wargaming.wot.blitz" back to ( Android/data/ ) or alternatly if just rename the folder then rename the folder to the original name,
   - now you have to copy paste the "net.wargaming.wot.blitz" provided in the modpack to  ( Android/data/ ) if its ask to overwrite or replace existing files then accept/agree to the promt after all the files are pasted then you are good to go and play the game!
 
-To change the voice gender copy paste the corresponding ( Male or Female ) from CREW_M_F/(Female or Male/crewvoices.yaml into Blitz data folder ( Android/data/net.wargaming.wot.blitz/files/packs )
+To change the voice gender copy paste the corresponding then you have to set the music volume from 0 to 48 for male crew & 52 to 100 for female. 49 to 51 is crew voice muted.
