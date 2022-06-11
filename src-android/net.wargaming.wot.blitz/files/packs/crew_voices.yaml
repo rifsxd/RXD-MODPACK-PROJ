@@ -1,0 +1,41 @@
+# Mod author RifsxD AKA RXD //
+
+# Currently set to Female "  " , to change to Male change "  " to "  " //
+
+# Example - { ussr: "rxd_ru" } ---> { ussr: "rxd_ru" } //
+
+nations:
+    ussr: "rxd_ru"
+    germany: "rxd_de"
+    usa: "rxd_us"
+    china: "rxd_cn"
+    france: "rxd_fr"
+    uk: "rxd_gb"
+    japan: "rxd_jp"
+    european: "rxd_sab"
+    other: "rxd_sab"
+subnations:
+    italy: "rxd_it"
+    poland: "rxd_pl"
+#--- Don't touch >--->
+    finland: "fi"
+#--- Don't touch <---<
+    czech: "rxd_cs"
+    sweden: "rxd_sv"
+    australia: "rxd_gb"
+    canada: "rxd_us"
+tanks:
+#-------------- GUP >-------------->
+    "japan:Pz_IV_AusfH": "rxd_gup"
+    "japan:G09_Hetzer_GuP": "rxd_gup"
+    "japan:PzVI_GuP": "rxd_gup"
+    "japan:Firefly_GuP": "rxd_gup"
+    "japan:IS-2_GuP": "rxd_gup"
+    "japan:Pz_IV_AusfH": "rxd_gup"
+#-------------- GUP <--------------<
+# ----------------- #
+#---- Sabaton >--->
+    "european:S13_Leo_NY": "rxd_sab"
+    "other:Strv_74A2": "rxd_sab"
+    "european:S25_EMIL_51": "rxd_sab"
+#---- Sabaton <---<
