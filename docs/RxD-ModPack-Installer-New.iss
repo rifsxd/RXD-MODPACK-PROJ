@@ -1,7 +1,7 @@
 ; RXD - MODPACK AUTO-INSTALLER SCRIPT.
 
 #define MyAppName "RXD - MODPACK"
-#define MyAppVersion "2.2-1-9.0"
+#define MyAppVersion "2.2.2-9.0"
 #define MyAppPublisher "RXD - MODS"
 #define MyAppURL "https://rxd-mods.pages.dev/"
 #define MyAppExeName "wotblitz.exe"
@@ -24,7 +24,7 @@ AllowNoIcons=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=E:\Github\RXD-MODPACK-PROJ
-OutputBaseFilename=rxd-modpack-autoinstaller-src-steam
+OutputBaseFilename=rxd-modpack-autoinstaller_2.2.2-9.0_src-steam-blitz
 SetupIconFile=E:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
 Compression=lzma
 SolidCompression=yes
