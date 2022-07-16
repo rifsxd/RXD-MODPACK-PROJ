@@ -64,7 +64,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "{tmp}\*"; DestDir: "{app}"; Flags: external deleteafterinstall
-Source: "E:\Github\RXD-MODPACK-PROJ\docs\7za.exe"; DestDir: "{app}"; Flags: external deleteafterinstall
+Source: "E:\Github\RXD-MODPACK-PROJ\docs\7za.exe"; DestDir: "{app}"; Flags: deleteafterinstall
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
