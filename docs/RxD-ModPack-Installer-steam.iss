@@ -1,6 +1,6 @@
 ; RXD - MODPACK AUTO-INSTALLER SCRIPT.
 
-#define MyAppName "RXD - MODPACK - WG.client"
+#define MyAppName "RXD - MODPACK - Steam"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "RXD - MODS"
 #define MyAppURL "https://rxd-mods.pages.dev/rxd-modpack"
@@ -20,13 +20,13 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName=C:\Games\World_of_Tanks_Blitz
+DefaultDirName=C:\Program Files (x86)\Steam\steamapps\common\World of Tanks Blitz
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=E:\Github\RXD-MODPACK-PROJ
-OutputBaseFilename=rxd-modpack-autoinstaller-wg.client
+OutputBaseFilename=rxd-modpack-autoinstaller-steam
 SetupIconFile=E:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
 Compression=lzma
 SolidCompression=yes
@@ -93,7 +93,7 @@ function NextButtonClick(CurPageID: Integer): Boolean;
 begin
   if CurPageID = wpReady then begin
     DownloadPage.Clear;
-    DownloadPage.Add('https://github.com/RifsxD/RXD-MODPACK-PROJ/releases/latest/download/rxd-modpack-wg.client.zip', 'rxd.zip', '');
+    DownloadPage.Add('https://github.com/RifsxD/RXD-MODPACK-PROJ/releases/latest/download/rxd-modpack-steam.zip', 'rxd.zip', '');
     DownloadPage.Show;
     try
       try
