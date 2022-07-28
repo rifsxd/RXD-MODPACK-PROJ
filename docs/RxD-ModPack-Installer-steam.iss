@@ -1,12 +1,12 @@
 ; RXD - MODPACK AUTO-INSTALLER SCRIPT.
 
 #define MyAppName "RXD - MODPACK - Steam"
-#define MyAppVersion "1.0"
+#define MyAppVersion "2.0"
 #define MyAppPublisher "RXD - MODS"
-#define MyAppURL "https://rxd-mods.pages.dev/rxd-modpack"
+#define MyAppURL "https://rxd-mods.xyz/rxd-modpack"
 #define MyAppExeName "wotblitz.exe"
 #define BlitzExe "World of Tanks Blitz"
-#define WinverInfo "1.0"
+#define WinverInfo "2.0"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.

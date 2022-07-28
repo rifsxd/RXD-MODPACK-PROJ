@@ -1,6 +1,6 @@
 // Smart DLC Patch - RXD - MODPACK // Very Important To Install If Using RXD - MODPACK //
 
-| Current.Version.Date --> 18.07.22-2
+| Current.Version.Date --> 28.07.22
 | Current.XML.Version --> 9.0.0
 
 || Needs to be installed in the folder "C:\Users\(username)\Documents\packs\" || If you are using wg.client or steam ||
