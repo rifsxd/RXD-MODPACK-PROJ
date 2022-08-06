@@ -1,17 +1,17 @@
 ; RXD - MODPACK AUTO-INSTALLER SCRIPT.
 
 #define MyAppName "RXD - MODPACK - Steam"
-#define MyAppVersion "2.0"
+#define MyAppVersion "2.5"
 #define MyAppPublisher "RXD - MODS"
 #define MyAppURL "https://rxd-mods.xyz/rxd-modpack"
 #define MyAppExeName "wotblitz.exe"
 #define BlitzExe "World of Tanks Blitz"
-#define WinverInfo "2.0"
+#define WinverInfo "2.5"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{76DF5EEC-FF6E-4D4F-8EEC-72F1C45BF335}
+AppId={{76DF5EEC-FF6E-4D4F-8EEC-72F1C45BF355}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 VersionInfoVersion={#WinverInfo}
@@ -20,14 +20,15 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
+AppendDefaultDirName=no
 DefaultDirName=C:\Program Files (x86)\Steam\steamapps\common\World of Tanks Blitz
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=E:\Github\RXD-MODPACK-PROJ
+OutputDir=D:\Github\RXD-MODPACK-PROJ
 OutputBaseFilename=rxd-modpack-autoinstaller-steam
-SetupIconFile=E:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
+SetupIconFile=D:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -64,8 +65,31 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "{tmp}\*"; DestDir: "{app}"; Flags: external deleteafterinstall
-Source: "E:\Github\RXD-MODPACK-PROJ\docs\7za.exe"; DestDir: "{app}"; Flags: deleteafterinstall
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+Source: "D:\Github\RXD-MODPACK-PROJ\docs\7za.exe"; DestDir: "{app}"; Flags: deleteafterinstall
+Source: "C:\Program Files (x86)\The Road To Delphi\VCL Styles Inno\VclStylesinno.dll"; DestDir: {app}; Flags: dontcopy
+Source: "C:\Program Files (x86)\The Road To Delphi\VCL Styles Inno\Styles\AquaGraphite.vsf"; DestDir: {app}; Flags: dontcopy
+Source: "D:\Github\RXD-MODPACK-PROJ\docs\RxD.bmp"; DestDir: {app}; Flags: dontcopy
+
+// Code for Custom Themes
+ 
+[Code]
+// Import the LoadVCLStyle function from VclStylesInno.DLL
+procedure LoadVCLStyle(VClStyleFile: String); external 'LoadVCLStyleW@files:VclStylesInno.dll stdcall';
+// Import the UnLoadVCLStyles function from VclStylesInno.DLL
+procedure UnLoadVCLStyles; external 'UnLoadVCLStyles@files:VclStylesInno.dll stdcall';
+ 
+function InitializeSetup(): Boolean;
+begin
+  ExtractTemporaryFile('AquaGraphite.vsf');
+  LoadVCLStyle(ExpandConstant('{tmp}\AquaGraphite.vsf'));
+  Result := True;
+end;
+ 
+procedure DeinitializeSetup();
+begin
+  UnLoadVCLStyles;
+end;
+
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
@@ -85,12 +109,34 @@ begin
 end;
 
 procedure InitializeWizard;
+  var
+  BitmapImage: TBitmapImage;
 begin
+  ExtractTemporaryFile('RxD.bmp');
+  BitmapImage := TBitmapImage.Create(WizardForm);
+  BitmapImage.Parent := WizardForm.MainPanel;
+  BitmapImage.Width := WizardForm.MainPanel.Width;
+  BitmapImage.Height := WizardForm.MainPanel.Height;
+  { Needed for WizardStyle=modern in Inno Setup 6. Must be removed in Inno Setup 5. }
+  BitmapImage.Anchors := [akLeft, akTop, akRight, akBottom];
+  BitmapImage.Stretch := True;
+  BitmapImage.AutoSize := False;
+  BitmapImage.Bitmap.LoadFromFile(ExpandConstant('{tmp}\RxD.bmp'));
+  
+  WizardForm.WizardSmallBitmapImage.Visible := False;
+  WizardForm.PageDescriptionLabel.Visible := False;
+  WizardForm.PageNameLabel.Visible := False;
   DownloadPage := CreateDownloadPage(SetupMessage(msgWizardPreparing), SetupMessage(msgPreparingDesc), @OnDownloadProgress);
 end;
 
 function NextButtonClick(CurPageID: Integer): Boolean;
 begin
+    Result := True;
+    if (CurPageId = wpSelectDir) and not FileExists(ExpandConstant('{app}\wotblitz.exe')) then begin
+        MsgBox('World of Tanks Blitz does not seem to be installed in that folder.  Please select the correct folder.', mbError, MB_OK);
+        Result := False;
+        exit;
+    end;
   if CurPageID = wpReady then begin
     DownloadPage.Clear;
     DownloadPage.Add('https://github.com/RifsxD/RXD-MODPACK-PROJ/releases/latest/download/rxd-modpack-steam.zip', 'rxd.zip', '');
