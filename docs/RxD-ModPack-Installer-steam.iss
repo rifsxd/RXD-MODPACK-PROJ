@@ -32,6 +32,7 @@ SetupIconFile=D:\Github\RXD-MODPACK-PROJ\docs\RxD.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+WizardImageFile=D:\Github\RXD-MODPACK-PROJ\docs\RXD_Banner_V.bmp
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -68,7 +69,7 @@ Source: "{tmp}\*"; DestDir: "{app}"; Flags: external deleteafterinstall
 Source: "D:\Github\RXD-MODPACK-PROJ\docs\7za.exe"; DestDir: "{app}"; Flags: deleteafterinstall
 Source: "C:\Program Files (x86)\The Road To Delphi\VCL Styles Inno\VclStylesinno.dll"; DestDir: {app}; Flags: dontcopy
 Source: "C:\Program Files (x86)\The Road To Delphi\VCL Styles Inno\Styles\AquaGraphite.vsf"; DestDir: {app}; Flags: dontcopy
-Source: "D:\Github\RXD-MODPACK-PROJ\docs\RxD.bmp"; DestDir: {app}; Flags: dontcopy
+Source: "D:\Github\RXD-MODPACK-PROJ\docs\RXD_Banner_H.bmp"; DestDir: {app}; Flags: dontcopy
 
 // Code for Custom Themes
  
@@ -112,7 +113,7 @@ procedure InitializeWizard;
   var
   BitmapImage: TBitmapImage;
 begin
-  ExtractTemporaryFile('RxD.bmp');
+  ExtractTemporaryFile('RXD_Banner_H.bmp');
   BitmapImage := TBitmapImage.Create(WizardForm);
   BitmapImage.Parent := WizardForm.MainPanel;
   BitmapImage.Width := WizardForm.MainPanel.Width;
@@ -121,7 +122,7 @@ begin
   BitmapImage.Anchors := [akLeft, akTop, akRight, akBottom];
   BitmapImage.Stretch := True;
   BitmapImage.AutoSize := False;
-  BitmapImage.Bitmap.LoadFromFile(ExpandConstant('{tmp}\RxD.bmp'));
+  BitmapImage.Bitmap.LoadFromFile(ExpandConstant('{tmp}\RXD_Banner_H.bmp'));
   
   WizardForm.WizardSmallBitmapImage.Visible := False;
   WizardForm.PageDescriptionLabel.Visible := False;
