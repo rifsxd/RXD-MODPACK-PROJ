@@ -2,6 +2,3 @@
 *.apk
 *.exe
 *local-testing
-*local-beta
-*xml-config-test
-*binary-signed
