@@ -1,5 +1,5 @@
 Header:
-    version: 143
+    version: 150
 ImportedPackages:
 - "~res:/UI/Screens/Battle/Tips.yaml"
 - "~res:/UI/Screens/Common/LoadingSpinner.yaml"
@@ -350,9 +350,6 @@ Prototypes:
                 name: "map-logo"
                 input: false
                 components:
-                    Anchor:
-                        bottomAnchorEnabled: true
-                        bottomAnchor: 10.000000
                     UITextureComponent:
                         perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
                     SizePolicy:
@@ -383,9 +380,6 @@ Prototypes:
                         name: "map-name"
                         classes: "header0 text-color-white"
                         components:
-                            Anchor:
-                                topAnchorEnabled: true
-                                topAnchor: -10.000000
                             UITextComponent:
                                 text: "Map Name"
                                 shadowOffset: [1.000000, 1.000000]
@@ -443,13 +437,6 @@ Prototypes:
                             horizontalPolicy: "PercentOfChildrenSum"
                             verticalPolicy: "PercentOfMaxChild"
                     children:
-                    -   prototype: "battle-type"
-                        name: "battle-type-tutorial"
-                        children:
-                        -   path: "value"
-                            components:
-                                UITextComponent:
-                                    text: "#battle_results:TrainingRoom/ScreenName"
                     -   prototype: "battle-type"
                         name: "battle-type-rating"
                         children:
@@ -532,10 +519,8 @@ Prototypes:
                             text: "TeamAlly"
                             align: ["LEFT", "VCENTER"]
                         Anchor:
-                            topAnchorEnabled: true
-                            topAnchor: 10.000000
                             leftAnchorEnabled: true
-                            leftAnchor: 150.000000
+                            leftAnchor: 4.000000
                             vCenterAnchorEnabled: true
                             vCenterAnchor: -1.000000
                         SizePolicy:
@@ -552,10 +537,8 @@ Prototypes:
                             text: "TeamEnemy"
                             align: ["RIGHT", "VCENTER"]
                         Anchor:
-                            topAnchorEnabled: true
-                            topAnchor: 10.000000
                             rightAnchorEnabled: true
-                            rightAnchor: 150.000000
+                            rightAnchor: 4.000000
                             vCenterAnchorEnabled: true
                             vCenterAnchor: -1.000000
                         SizePolicy:
