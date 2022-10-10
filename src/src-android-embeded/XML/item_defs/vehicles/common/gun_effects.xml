@@ -478,7 +478,7 @@
   <wpn_shot_mid>
     <blitz>
       <soundPC>RXD_WoTB_Mod_gun_PC_medium</soundPC>
-      <soundNPC>RXD_WoTB_Mod_gun_NPC_mediums</soundNPC>
+      <soundNPC>RXD_WoTB_Mod_gun_NPC_medium</soundNPC>
       <soundCannonade>guns/cannonade/cannonade_medium</soundCannonade>
       <effect>~res:/3d/FX/gun_effects/shot_medium.sc2</effect>
     </blitz>
