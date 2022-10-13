@@ -5,5 +5,5 @@ Source.Code.Patch.Version --> {
 								"Steam:3.2",
 								"WG.Client:3.2",
 								"MS.Store:NULL",
-								"RU.Android:NULL"
+								"RU.Android:3.2.beta.1"
 							  }
