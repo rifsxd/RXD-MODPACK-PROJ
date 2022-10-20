@@ -35,8 +35,6 @@
 		<_100mm_D10AD>87</_100mm_D10AD>
 		<_85mm_ZiS_S-53BP>88</_85mm_ZiS_S-53BP>
 		<_76mm_Gun_T91_BP>90</_76mm_Gun_T91_BP>
-		<_75mm_Gun_Mk_V_A_Des>91</_75mm_Gun_Mk_V_A_Des>
-		<_88mm_KwK_43_L71B_Des>92</_88mm_KwK_43_L71B_Des>
 	</ids>
 	<shared>
 		<_75mm_L56_5_kan_Strv_74>
@@ -51,7 +49,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.3</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-25 10</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -113,7 +111,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.36</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-15 8</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>40</rotationSpeed>
@@ -167,7 +165,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.44</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-15 8</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -221,7 +219,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-15 6</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -283,7 +281,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.36</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-18 8</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -337,7 +335,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.36</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-25 8</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43</rotationSpeed>
@@ -393,7 +391,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.58</returnTime>
 			</recoil>
-			<effects>wpn_shot_large_mb</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-25 6</pitchLimits>
 			<rotationSpeed>26.25</rotationSpeed>
 			<reloadTime>12.34285714285710</reloadTime>
@@ -448,7 +446,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.64</returnTime>
 			</recoil>
-			<effects>wpn_shot_large_mb</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-18 6</pitchLimits>
 			<rotationSpeed>26.25</rotationSpeed>
 			<reloadTime>7.4</reloadTime>
@@ -503,7 +501,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.6</returnTime>
 			</recoil>
-			<effects>wpn_shot_huge</effects>
+			<effects>shot_huge</effects>
 			<pitchLimits>-18 6</pitchLimits>
 			<yawLimits>-10 10</yawLimits>
 			<rotationSpeed>26.25</rotationSpeed>
@@ -559,7 +557,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.32</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_main</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-20 5</pitchLimits>
 			<rotationSpeed>35.1</rotationSpeed>
@@ -615,7 +613,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.54</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main_extra</effects>
 			<pitchLimits>-20 5</pitchLimits>
 			<rotationSpeed>33.25</rotationSpeed>
 			<reloadTime>8.0</reloadTime>
@@ -670,7 +668,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.1</returnTime>
 			</recoil>
-			<effects>shot_watergun_auto</effects>
+			<effects>shot_auto</effects>
 			<turretYawLimits>-1 1</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>50</rotationSpeed>
@@ -720,7 +718,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.1</returnTime>
 			</recoil>
-			<effects>shot_watergun_main</effects>
+			<effects>shot_auto</effects>
 			<turretYawLimits>-1 1</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>50</rotationSpeed>
@@ -762,7 +760,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.1</returnTime>
 			</recoil>
-			<effects>wpn_shot_small</effects>
+			<effects>shot_auto</effects>
 			<turretYawLimits>-1 1</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>50</rotationSpeed>
@@ -804,7 +802,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-25 7</pitchLimits>
 			<rotationSpeed>39.3</rotationSpeed>
 			<reloadTime>5.8</reloadTime>
@@ -859,7 +857,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_medium</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40</rotationSpeed>
@@ -915,7 +913,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40.25</rotationSpeed>
 			<reloadTime>3.3</reloadTime>
@@ -970,7 +968,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.36</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-12 10</pitchLimits>
 			<rotationSpeed>35.0</rotationSpeed>
 			<reloadTime>6.9</reloadTime>
@@ -1025,7 +1023,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.6</returnTime>
 			</recoil>
-			<effects>wpn_shot_huge</effects>
+			<effects>shot_huge</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-15 6</pitchLimits>
 			<rotationSpeed>26</rotationSpeed>
@@ -1081,7 +1079,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40.25</rotationSpeed>
 			<reloadTime>3.3</reloadTime>
@@ -1136,7 +1134,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40.25</rotationSpeed>
 			<reloadTime>3.3</reloadTime>
@@ -1191,7 +1189,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40.25</rotationSpeed>
 			<reloadTime>3.3</reloadTime>
@@ -1246,7 +1244,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.38</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-17 6</pitchLimits>
 			<rotationSpeed>35.0</rotationSpeed>
 			<reloadTime>4.5</reloadTime>
@@ -1301,7 +1299,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.44</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-15 8</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -1357,7 +1355,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.64</returnTime>
 			</recoil>
-			<effects>wpn_shot_large_mb</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-18 6</pitchLimits>
 			<rotationSpeed>26.25</rotationSpeed>
 			<reloadTime>7.4</reloadTime>
@@ -1412,7 +1410,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.44</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-17 6</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>35.0</rotationSpeed>
@@ -1468,7 +1466,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-15 6</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -1532,7 +1530,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.32</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-20 6.5</pitchLimits>
 			<rotationSpeed>35.0</rotationSpeed>
 			<reloadTime>5</reloadTime>
@@ -1588,7 +1586,7 @@
 				<backoffTime>0.2</backoffTime>
 				<returnTime>0.6</returnTime>
 			</recoil>
-			<effects>wpn_shot_main_mb</effects>
+			<effects>shot_large</effects>
 			<pitchLimits>-17 8</pitchLimits>
 			<rotationSpeed>21.875</rotationSpeed>
 			<reloadTime>7.4</reloadTime>
@@ -1643,7 +1641,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.38</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
+			<effects>shot_main</effects>
 			<pitchLimits>-17 6</pitchLimits>
 			<rotationSpeed>35.0</rotationSpeed>
 			<reloadTime>4.57</reloadTime>
@@ -1698,7 +1696,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid</effects>
+			<effects>shot_medium</effects>
 			<pitchLimits>-12 6</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
@@ -1754,7 +1752,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.54</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main_extra</effects>
 			<pitchLimits>-20 5</pitchLimits>
 			<rotationSpeed>33.25</rotationSpeed>
 			<reloadTime>8.0</reloadTime>
@@ -1809,7 +1807,7 @@
 				<backoffTime>0.3</backoffTime>
 				<returnTime>0.3</returnTime>
 			</recoil>
-			<effects>wpn_shot_main</effects>
+			<effects>shot_main</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>39.375</rotationSpeed>
@@ -1865,7 +1863,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
+			<effects>shot_main</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>40.25</rotationSpeed>
@@ -1907,117 +1905,6 @@
 				</_76mm_HE_M352>
 			</shots>
 		</_76mm_Gun_T91_BP>
-		<_75mm_Gun_Mk_V_A_Des>
-			<userString>#other_vehicles:_75mm_Gun_Mk_V_A_Des</userString>
-			<shortUserString>#other_vehicles:_75mm_Gun_Mk_V_A_Des_short</shortUserString>
-			<description>#other_vehicles:_75mm_Gun_Mk_V_A_Des_descr</description>
-			<tags/>
-			<level>5</level>
-			<price>0</price>
-			<impulse>0.48</impulse>
-			<recoil>
-				<lodDist>MEDIUM</lodDist>
-				<amplitude>0.36</amplitude>
-				<backoffTime>0.1</backoffTime>
-				<returnTime>0.4</returnTime>
-			</recoil>
-			<effects>wpn_shot_mid_mb</effects>
-			<turretYawLimits>-180 180</turretYawLimits>
-			<pitchLimits>-25 10</pitchLimits>
-			<rotationSpeed>40.25</rotationSpeed>
-			<reloadTime>3.80571428571429</reloadTime>
-			<maxAmmo>45</maxAmmo>
-			<aimingTime>2.05714285714286</aimingTime>
-			<weight>500</weight>
-			<maxHealth>120</maxHealth>
-			<maxRegenHealth>60</maxRegenHealth>
-			<repairCost>0</repairCost>
-			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
-			<shotDispersionRadius>0.457142857142857</shotDispersionRadius>
-			<shotDispersionFactors>
-				<turretRotation>0.16</turretRotation>
-				<afterShot>4.0</afterShot>
-				<whileGunDamaged>2.0</whileGunDamaged>
-			</shotDispersionFactors>
-			<shots>
-				<_75mm_AP_Mk1D>
-					<defaultPortion>0.8</defaultPortion>
-					<speed>1000</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>110 98</piercingPower>
-				</_75mm_AP_Mk1D>
-				<_75mm_APCR_Mk3D>
-					<defaultPortion>0</defaultPortion>
-					<speed>1100</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>144 119</piercingPower>
-				</_75mm_APCR_Mk3D>
-				<_75mm_HE_Mk2D>
-					<defaultPortion>0.2</defaultPortion>
-					<speed>900</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>38 38</piercingPower>
-				</_75mm_HE_Mk2D>
-			</shots>
-		</_75mm_Gun_Mk_V_A_Des>
-		<_88mm_KwK_43_L71B_Des>
-			<userString>#other_vehicles:_88mm_KwK_43_L71B_Des</userString>
-			<shortUserString>#other_vehicles:_88mm_KwK_43_L71B_Des_short</shortUserString>
-			<description>#other_vehicles:_88mm_KwK_43_L71B_Des_descr</description>
-			<tags/>
-			<level>7</level>
-			<price>0</price>
-			<impulse>0.38</impulse>
-			<recoil>
-				<lodDist>MEDIUM</lodDist>
-				<amplitude>0.48</amplitude>
-				<backoffTime>0.1</backoffTime>
-				<returnTime>0.1</returnTime>
-			</recoil>
-			<effects>wpn_shot_main</effects>
-			<turretYawLimits>-180 180</turretYawLimits>
-			<pitchLimits>-17 6</pitchLimits>
-			<rotationSpeed>30.625</rotationSpeed>
-			<reloadTime>6.9</reloadTime>
-			<maxAmmo>60</maxAmmo>
-			<aimingTime>2.7</aimingTime>
-			<weight>2562</weight>
-			<maxHealth>200</maxHealth>
-			<maxRegenHealth>100</maxRegenHealth>
-			<repairCost>0</repairCost>
-			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
-			<shotDispersionRadius>0.32</shotDispersionRadius>
-			<shotDispersionFactors>
-				<turretRotation>0.16</turretRotation>
-				<afterShot>4.0</afterShot>
-				<whileGunDamaged>2.0</whileGunDamaged>
-			</shotDispersionFactors>
-			<shots>
-				<_88mm_Pzgr39_43Des>
-					<defaultPortion>0.8</defaultPortion>
-					<speed>996</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>185 162</piercingPower>
-				</_88mm_Pzgr39_43Des>
-				<_88mm_Pzgr.40_43Des>
-					<defaultPortion>0.0</defaultPortion>
-					<speed>1231</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>237 220</piercingPower>
-				</_88mm_Pzgr.40_43Des>
-				<_88mm_Sprg.43Des>
-					<defaultPortion>0.2</defaultPortion>
-					<speed>810</speed>
-					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
-					<piercingPower>64 64</piercingPower>
-				</_88mm_Sprg.43Des>
-			</shots>
-		</_88mm_KwK_43_L71B_Des>
 	</shared>
 </root>
+
