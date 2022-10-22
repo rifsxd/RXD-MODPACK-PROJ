@@ -7,3 +7,4 @@
  - Google Android
  - MicroSoft Store ( UWP )
  - Google Android ( RU )
+ - Lesta Client 
