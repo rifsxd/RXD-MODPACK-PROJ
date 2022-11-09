@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/other-Oth27_M24_AMX</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/other-Oth27_M24_AMX</bigIconPath>
-		<blitzModelPath>Tanks/Other/Oth27_M24_AMX.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/usa/lt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/usa/lt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/other-Oth27_M24_AMX.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner>loader</gunner>
@@ -57,19 +45,6 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<blitz>
-			<averageThickness>
-				<turret_01>59.711781</turret_01>
-			</averageThickness>
-			<blitzPartName>hull</blitzPartName>
-			<bbox>
-				<min>-1.518953 -2.600619 0.420189</min>
-				<max>1.518953 2.515830 1.641101</max>
-			</bbox>
-			<points>
-				<normal>-0.000368 -0.000005 0.000039</normal>
-			</points>
-		</blitz>
 		<swinging>
 			<lodDist>FAR</lodDist>
 			<pitchParams>0.28 34.00 0.42 1.00 0.05 0.30</pitchParams>
@@ -135,18 +110,6 @@
 	</hull>
 	<chassis>
 		<Chassis_Oth27_M24_AMX>
-			<blitz>
-				<blitzPartName>chassis</blitzPartName>
-				<bbox>
-					<min>-1.432596 -2.373895 0.005307</min>
-					<max>1.432596 2.321770 1.136198</max>
-				</bbox>
-				<points>
-					<normal>0.000000 0.000000 -0.000000</normal>
-				</points>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#other_vehicles:Chassis_Oth27_M24_AMX</userString>
 			<shortUserString>#other_vehicles:Chassis_Oth27_M24_AMX_short</shortUserString>
 			<description>#other_vehicles:Chassis_Oth27_M24_AMX_descr</description>
@@ -232,16 +195,6 @@
 	</chassis>
 	<turrets0>
 		<Turret_1_Oth27_M24_AMX>
-			<blitz>
-				<blitzPartName>turret_01</blitzPartName>
-				<bbox>
-					<min>-0.969868 -0.917682 -0.000050</min>
-					<max>0.969912 0.974045 0.454802</max>
-				</bbox>
-				<points>
-					<normal>-0.000048 -0.167783 -1.537691</normal>
-				</points>
-			</blitz>
 			<userString>#other_vehicles:Turret_1_Oth27_M24_AMX</userString>
 			<description>#other_vehicles:Turret_1_Oth27_M24_AMX_descr</description>
 			<tags/>
@@ -285,17 +238,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_75mm_SA50BP>shared<blitz>
-						<blitzPartName>gun_01</blitzPartName>
-						<bbox>
-							<min>-0.862315 -1.753416 -0.514301</min>
-							<max>0.862316 3.073398 0.477183</max>
-						</bbox>
-						<points>
-							<normal>0.000000 -0.234979 -2.097652</normal>
-						</points>
-					</blitz>
-					<maxAmmo>48</maxAmmo>
+				<_75mm_SA50BP>shared<maxAmmo>48</maxAmmo>
 					<hitTester>
 						<collisionModel>vehicles/other/Oth27_M24_AMX/collision/Gun_01.model</collisionModel>
 					</hitTester>
@@ -334,6 +277,7 @@
 					</shotDispersionFactors>
 					<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
 					<pitchLimits>-10 6</pitchLimits>
+					<effects>shot_main</effects>
 					<shots>
 						<_75mm_Prf1930BP>
 							<shell>shared<price>0</price>
@@ -381,4 +325,3 @@
 		<SCR_528FBP>shared</SCR_528FBP>
 	</radios>
 </root>
-

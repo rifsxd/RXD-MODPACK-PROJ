@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/usa-A111_T25_Pilot</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/usa-A111_T25_Pilot</bigIconPath>
-		<blitzModelPath>Tanks/USA/A111_T25_Pilot.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/usa/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/usa/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/usa-A111_T25_Pilot.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner/>
@@ -124,10 +112,6 @@
 	</hull>
 	<chassis>
 		<Chassis_A111_T25_Pilot>
-			<blitz>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#usa_vehicles:Chassis_A111_T25_Pilot</userString>
 			<shortUserString>#usa_vehicles:Chassis_A111_T25_Pilot_short</shortUserString>
 			<description>#usa_vehicles:Chassis_A111_T25_Pilot_descr</description>
@@ -293,6 +277,7 @@
 					<pitchLimits>-20 10</pitchLimits>
 					<turretYawLimits>-180 180</turretYawLimits>
 					<emblemSlots/>
+					<effects>shot_main</effects>
 					<shots>
 						<_90mm_AP_T33>
 							<shell>shared<price>0</price>
@@ -342,4 +327,3 @@
 		<SCR_528A1>shared</SCR_528A1>
 	</radios>
 </root>
-

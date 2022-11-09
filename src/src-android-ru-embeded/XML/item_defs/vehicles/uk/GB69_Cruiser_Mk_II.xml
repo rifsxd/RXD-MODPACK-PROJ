@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/britsh-Cruiser_Mk_II</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/britsh-Cruiser_Mk_II</bigIconPath>
-		<blitzModelPath>Tanks/GB/Cruiser_Mk_II.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/uk/lt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/uk/lt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/uk-GB69_Cruiser_Mk_II.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner/>
@@ -58,21 +46,6 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<blitz>
-			<averageThickness>
-				<turret_01>26.538637</turret_01>
-				<turret_02>27.768841</turret_02>
-			</averageThickness>
-			<blitzPartName>hull</blitzPartName>
-			<bbox>
-				<min>-1.157352 -2.479666 0.376779</min>
-				<max>1.157352 2.763636 1.681261</max>
-			</bbox>
-			<points>
-				<normal>0.000343 0.000181 0.000181</normal>
-			</points>
-			<detachedTurret/>
-		</blitz>
 		<models>
 			<undamaged>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Hull.model</undamaged>
 			<destroyed>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Hull.model</destroyed>
@@ -150,18 +123,6 @@
 	</hull>
 	<chassis>
 		<Chassis_GB69_Cruiser_Mk_II>
-			<blitz>
-				<blitzPartName>chassis</blitzPartName>
-				<bbox>
-					<min>-1.219657 -2.588245 0.013536</min>
-					<max>1.219657 2.920843 1.039810</max>
-				</bbox>
-				<points>
-					<normal>0.000034 -0.000397 0.000220</normal>
-				</points>
-				<soundPC>tanks/pc/treads/lt</soundPC>
-				<soundNPC>tanks/npc/treads/lt</soundNPC>
-			</blitz>
 			<userString>#gb_vehicles:Chassis_GB69_Cruiser_Mk_II</userString>
 			<description>#gb_vehicles:Chassis_GB69_Cruiser_Mk_II_descr</description>
 			<tags/>
@@ -290,17 +251,6 @@
 	</chassis>
 	<turrets0>
 		<Turret_1_GB69_Cruiser_Mk_II>
-			<blitz>
-				<blitzPartName>turret_01</blitzPartName>
-				<bbox>
-					<min>-0.887334 -0.994863 -0.634630</min>
-					<max>0.887333 0.754534 0.915022</max>
-				</bbox>
-				<points>
-					<normal>-0.000051 -0.439580 -1.627641</normal>
-				</points>
-				<clipParams/>
-			</blitz>
 			<userString>#gb_vehicles:Turret_1_GB69_Cruiser_Mk_II</userString>
 			<description>#gb_vehicles:Turret_1_GB69_Cruiser_Mk_II_descr</description>
 			<tags/>
@@ -384,17 +334,7 @@
 				</inscription>
 			</emblemSlots>
 			<guns>
-				<_2pdr_Gun_Mk_IX_A>shared<blitz>
-						<blitzPartName>gun_01</blitzPartName>
-						<bbox>
-							<min>-0.344025 -0.116116 -0.215439</min>
-							<max>0.340149 1.486961 0.213155</max>
-						</bbox>
-						<points>
-							<normal>-0.045727 -1.133323 -1.950359</normal>
-						</points>
-					</blitz>
-					<maxAmmo>80</maxAmmo>
+				<_2pdr_Gun_Mk_IX_A>shared<maxAmmo>80</maxAmmo>
 					<pitchLimits>-20 15</pitchLimits>
 					<models>
 						<undamaged>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Gun_01.model</undamaged>
@@ -422,6 +362,7 @@
 					</shotDispersionFactors>
 					<aimingTime>1.6</aimingTime>
 					<invisibilityFactorAtShot>0.255</invisibilityFactorAtShot>
+					<effects>shot_small</effects>
 					<shots>
 						<_2pdr_AP_Mk.1BT>
 							<shell>shared<price>0</price>
@@ -434,17 +375,6 @@
 			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
 		</Turret_1_GB69_Cruiser_Mk_II>
 		<Turret_2_GB69_Cruiser_Mk_II>
-			<blitz>
-				<blitzPartName>turret_02</blitzPartName>
-				<bbox>
-					<min>-0.858068 -0.995175 -0.566127</min>
-					<max>0.864909 0.865813 0.935832</max>
-				</bbox>
-				<points>
-					<normal>0.000638 -0.440085 -1.627256</normal>
-				</points>
-				<clipParams/>
-			</blitz>
 			<userString>#gb_vehicles:Turret_2_GB69_Cruiser_Mk_II</userString>
 			<description>#gb_vehicles:Turret_2_GB69_Cruiser_Mk_II_descr</description>
 			<tags/>
@@ -528,17 +458,7 @@
 				</inscription>
 			</emblemSlots>
 			<guns>
-				<_2pdr_Gun_Mk_IX_A>shared<blitz>
-						<blitzPartName>gun_03</blitzPartName>
-						<bbox>
-							<min>-0.503576 -0.046654 -0.216576</min>
-							<max>0.346622 1.511201 0.248866</max>
-						</bbox>
-						<points>
-							<normal>-0.084859 -0.974222 -1.980959</normal>
-						</points>
-					</blitz>
-					<maxAmmo>80</maxAmmo>
+				<_2pdr_Gun_Mk_IX_A>shared<maxAmmo>80</maxAmmo>
 					<pitchLimits>-20 15</pitchLimits>
 					<models>
 						<undamaged>vehicles/british/GB69_Cruiser_Mk_II/normal/lod0/Gun_03.model</undamaged>
@@ -566,6 +486,7 @@
 						<afterShot>3</afterShot>
 						<whileGunDamaged>2.0</whileGunDamaged>
 					</shotDispersionFactors>
+					<effects>shot_small</effects>
 					<shots>
 						<_2pdr_AP_Mk.1BT>
 							<shell>shared<price>0</price>
@@ -573,17 +494,7 @@
 						</_2pdr_AP_Mk.1BT>
 					</shots>
 				</_2pdr_Gun_Mk_IX_A>
-				<_40mm_Pom_Pom>shared<blitz>
-						<blitzPartName>gun_02</blitzPartName>
-						<bbox>
-							<min>-0.503575 -0.046654 -0.225010</min>
-							<max>0.346623 1.579447 0.240432</max>
-						</bbox>
-						<points>
-							<normal>-0.084694 -0.973728 -1.989397</normal>
-						</points>
-					</blitz>
-					<maxAmmo>60</maxAmmo>
+				<_40mm_Pom_Pom>shared<maxAmmo>60</maxAmmo>
 					<pitchLimits>-20 15</pitchLimits>
 					<extraPitchLimits>
 						<back>-20 13 25</back>
@@ -626,6 +537,7 @@
 						<count>1</count>
 						<rate>60</rate>
 					</burst>
+					<effects>shot_small</effects>
 					<shots>
 						<_40mm_APF>
 							<shell>shared<price>0</price>
@@ -648,4 +560,3 @@
 		<N11>shared</N11>
 	</radios>
 </root>
-

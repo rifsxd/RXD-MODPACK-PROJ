@@ -1,0 +1,5 @@
+1
+rxd_minimapbase.packed.webp
+31 31
+1
+37 34 31 31 0 1 0 frame0

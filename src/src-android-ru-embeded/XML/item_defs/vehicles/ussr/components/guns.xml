@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>1041</nextAvailableId>
+	<nextAvailableId>1043</nextAvailableId>
 	<ids>
 		<_76mm_L-11>0</_76mm_L-11>
 		<_76mm_F-34>2</_76mm_F-34>
@@ -122,6 +122,7 @@
 		<_107mm_9S1>1038</_107mm_9S1>
 		<_122-mm_D-25T_with_wedges_shutter_E>1039</_122-mm_D-25T_with_wedges_shutter_E>
 		<_100mm_D54_M1>1040</_100mm_D54_M1>
+		<_85mm_D5T-85BML>1042</_85mm_D5T-85BML>
 	</ids>
 	<shared>
 		<_20mm_TNSH>
@@ -4613,7 +4614,7 @@
 					<speed>950</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>144 125</piercingPower>
+					<piercingPower>152 133</piercingPower>
 				</_85mm_UBR-365KBM>
 				<_85mm_UBR-365PBM>
 					<defaultPortion>0.0</defaultPortion>
@@ -6523,6 +6524,60 @@
 				</_100mm_3UOF10>
 			</shots>
 		</_100mm_D54_M1>
+		<_85mm_D5T-85BML>
+			<userString>#ussr_vehicles:85mm_D5T-85BML</userString>
+			<description>#ussr_vehicles:85mm_D5T-85BML</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.44</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.32</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>wpn_shot_main</effects>
+			<pitchLimits>-25 7</pitchLimits>
+			<rotationSpeed>39.375</rotationSpeed>
+			<reloadTime>5.81714285714286</reloadTime>
+			<maxAmmo>40</maxAmmo>
+			<aimingTime>2.85714285714286</aimingTime>
+			<weight>1850</weight>
+			<maxHealth>134</maxHealth>
+			<maxRegenHealth>67</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.365714285714286</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_85mm_UBR-365KBM>
+					<defaultPortion>0.75</defaultPortion>
+					<speed>950</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>144 125</piercingPower>
+				</_85mm_UBR-365KBM>
+				<_85mm_UBR-365PBM>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1188</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>194 168</piercingPower>
+				</_85mm_UBR-365PBM>
+				<_85mm_UOF-365BM>
+					<defaultPortion>0.25</defaultPortion>
+					<speed>950</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>44 44</piercingPower>
+				</_85mm_UOF-365BM>
+			</shots>
+		</_85mm_D5T-85BML>
 	</shared>
 </root>
 

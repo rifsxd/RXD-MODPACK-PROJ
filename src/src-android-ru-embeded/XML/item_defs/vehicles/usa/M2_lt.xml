@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/usa-M2_lt</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/usa-M2_lt</bigIconPath>
-		<blitzModelPath>Tanks/USA/M2_lt.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/usa/lt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/usa/lt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/usa-M2_lt.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner>loader</gunner>
@@ -57,20 +45,6 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<blitz>
-			<averageThickness>
-				<turret_01>30.360537</turret_01>
-				<turret_02>31.408777</turret_02>
-			</averageThickness>
-			<blitzPartName>hull</blitzPartName>
-			<bbox>
-				<min>-1.117982 -1.938381 0.430894</min>
-				<max>1.122018 1.898621 1.714171</max>
-			</bbox>
-			<points>
-				<normal>0.000000 0.000000 0.000000</normal>
-			</points>
-		</blitz>
 		<models>
 			<undamaged>vehicles/american/A02_M2_lt/normal/lod0/Hull.model</undamaged>
 			<destroyed>vehicles/american/A02_M2_lt/normal/lod0/Hull.model</destroyed>
@@ -144,18 +118,6 @@
 	</hull>
 	<chassis>
 		<VVSS_T16E2>
-			<blitz>
-				<blitzPartName>chassis</blitzPartName>
-				<bbox>
-					<min>-1.089551 -2.278045 0.001182</min>
-					<max>1.089551 2.010753 1.060686</max>
-				</bbox>
-				<points>
-					<normal>0.000000 0.000000 0.000000</normal>
-				</points>
-				<soundPC>tanks/pc/treads/lt</soundPC>
-				<soundNPC>tanks/npc/treads/lt</soundNPC>
-			</blitz>
 			<userString>#usa_vehicles:VVSS_T16E2</userString>
 			<description>#usa_vehicles:VVSS_T16E2_descr</description>
 			<tags/>
@@ -264,16 +226,6 @@
 	</chassis>
 	<turrets0>
 		<M2D27810>
-			<blitz>
-				<blitzPartName>turret_01</blitzPartName>
-				<bbox>
-					<min>-0.683078 -0.691107 -0.547894</min>
-					<max>0.686266 0.791612 0.743944</max>
-				</bbox>
-				<points>
-					<normal>-0.004222 0.080559 -1.686630</normal>
-				</points>
-			</blitz>
 			<userString>#usa_vehicles:M2D27810</userString>
 			<description>#usa_vehicles:M2D27810_descr</description>
 			<tags/>
@@ -330,17 +282,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_20mm_Hispano_Suiza_Birgikt_gun>shared<blitz>
-						<blitzPartName>gun_02</blitzPartName>
-						<bbox>
-							<min>-0.278277 -0.976894 -0.128355</min>
-							<max>0.278244 1.784754 0.128449</max>
-						</bbox>
-						<points>
-							<normal>-0.029369 -0.715787 -1.892297</normal>
-						</points>
-					</blitz>
-					<maxAmmo>564</maxAmmo>
+				<_20mm_Hispano_Suiza_Birgikt_gun>shared<maxAmmo>564</maxAmmo>
 					<reloadTime>6</reloadTime>
 					<aimingTime>1.7</aimingTime>
 					<shotDispersionFactors>
@@ -383,6 +325,7 @@
 						<count>4</count>
 						<rate>600</rate>
 					</clip>
+					<effects>shot_small</effects>
 					<shots>
 						<_20mm_AP_M1>
 							<shell>shared<price>0</price>
@@ -418,16 +361,6 @@
 			<physicsShape>1.000 0.000 1.000 0.000 1.000 0.000 0.500 0.100 0.500 0.500 0.500 0.500 0.600 0.100 0.500</physicsShape>
 		</M2D27810>
 		<M2D27812>
-			<blitz>
-				<blitzPartName>turret_02</blitzPartName>
-				<bbox>
-					<min>-0.685782 -0.693179 -0.560049</min>
-					<max>0.688758 0.799840 0.827832</max>
-				</bbox>
-				<points>
-					<normal>-0.004419 0.079993 -1.686329</normal>
-				</points>
-			</blitz>
 			<userString>#usa_vehicles:M2D27812</userString>
 			<description>#usa_vehicles:M2D27812_descr</description>
 			<tags/>
@@ -484,17 +417,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_20mm_Hispano_Suiza_Birgikt_gun>shared<blitz>
-						<blitzPartName>gun_04</blitzPartName>
-						<bbox>
-							<min>-0.285914 -0.561809 -0.235592</min>
-							<max>0.282777 1.855240 0.216456</max>
-						</bbox>
-						<points>
-							<normal>0.024959 -0.607455 -1.930833</normal>
-						</points>
-					</blitz>
-					<maxAmmo>624</maxAmmo>
+				<_20mm_Hispano_Suiza_Birgikt_gun>shared<maxAmmo>624</maxAmmo>
 					<reloadTime>6</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.08</turretRotation>
@@ -537,6 +460,7 @@
 						<count>4</count>
 						<rate>600</rate>
 					</clip>
+					<effects>shot_small</effects>
 					<shots>
 						<_20mm_AP_M1>
 							<shell>shared<price>0</price>
@@ -544,17 +468,7 @@
 						</_20mm_AP_M1>
 					</shots>
 				</_20mm_Hispano_Suiza_Birgikt_gun>
-				<_37mm_M-5>shared<blitz>
-						<blitzPartName>gun_05</blitzPartName>
-						<bbox>
-							<min>-0.286233 -0.919525 -0.235592</min>
-							<max>0.282458 1.280359 0.216456</max>
-						</bbox>
-						<points>
-							<normal>0.025895 -0.607785 -1.930580</normal>
-						</points>
-					</blitz>
-					<maxAmmo>103</maxAmmo>
+				<_37mm_M-5>shared<maxAmmo>103</maxAmmo>
 					<pitchLimits>-19 6</pitchLimits>
 					<models>
 						<undamaged>vehicles/american/A02_M2_lt/normal/lod0/Gun_05.model</undamaged>
@@ -635,4 +549,3 @@
 		<SCR_200>shared</SCR_200>
 	</radios>
 </root>
-

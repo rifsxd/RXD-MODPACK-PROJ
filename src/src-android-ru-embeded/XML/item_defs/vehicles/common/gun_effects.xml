@@ -608,7 +608,7 @@
 			<effect>~res:/3d/FX/gun_effects/shot_huge.sc2</effect>
 		</blitz>
 	</shot_large_extra>
-	<shot_main_dou>
+	<shot_main_dual>
 		<stages>
 			<shooting>6.0</shooting>
 		</stages>
@@ -630,8 +630,8 @@
 			<soundCannonade>guns/cannonade/cannonade_large</soundCannonade>
 			<effect>~res:/3d/FX/gun_effects/shot_large.sc2</effect>
 		</blitz>
-	</shot_main_dou>
-	<shot_large_dou>
+	</shot_main_dual>
+	<shot_large_dual>
 		<stages>
 			<shooting>6.0</shooting>
 		</stages>
@@ -653,5 +653,5 @@
 			<soundCannonade>guns/cannonade/cannonade_large</soundCannonade>
 			<effect>~res:/3d/FX/gun_effects/shot_huge.sc2</effect>
 		</blitz>
-	</shot_large_dou>
+	</shot_large_dual>
 </root>

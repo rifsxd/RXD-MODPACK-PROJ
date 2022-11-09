@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/germany-Waffentrager_IV_CL</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/germany-Waffentrager_IV_CL</bigIconPath>
-		<blitzModelPath>Tanks/German/Waffentrager_IV_CL.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/de/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/de/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/germany-Waffentrager_IV_CL.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner/>
@@ -129,10 +117,6 @@
 	</hull>
 	<chassis>
 		<Chassis_Waffentrager_IV_CL>
-			<blitz>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#germany_vehicles:Chassis_Waffentrager_IV_CL</userString>
 			<shortUserString>#germany_vehicles:Chassis_Waffentrager_IV_CL_short</shortUserString>
 			<description>#germany_vehicles:Chassis_Waffentrager_IV_CL_descr</description>
@@ -318,6 +302,7 @@
 							</shell>
 						</_128mm_SprG19_B2>
 					</shots>
+					<effects>shot_large_extra</effects>
 				</_128mm_K44_2_L61_CL>
 			</guns>
 			<emblemSlots>
@@ -350,4 +335,3 @@
 		<FuG_F2>shared</FuG_F2>
 	</radios>
 </root>
-

@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>73</nextAvailableId>
+	<nextAvailableId>75</nextAvailableId>
 	<ids>
 		<Cannone_da_105_51_M68>1</Cannone_da_105_51_M68>
 		<_105mm_Cannone_da_Rh_V1>2</_105mm_Cannone_da_Rh_V1>
@@ -56,7 +56,23 @@
 		<_88mm_vz_36_N>54</_88mm_vz_36_N>
 		<_120mm_Cannone_da_120_67_T53>55</_120mm_Cannone_da_120_67_T53>
 		<_130mm_Cannone_Da_130-45>56</_130mm_Cannone_Da_130-45>
+		<_120mm_Cannone_Da_120-60>57</_120mm_Cannone_Da_120-60>
+		<_127mm_Cannone_Da_127-58>58</_127mm_Cannone_Da_127-58>
+		<_105mm_Cannone_Da_105-56M>59</_105mm_Cannone_Da_105-56M>
+		<_105mm_Cannone_Da_105-73>60</_105mm_Cannone_Da_105-73>
+		<_120mm_Cannone_Da_120-55>61</_120mm_Cannone_Da_120-55>
+		<_105mm_Cannone_Da_105-56>62</_105mm_Cannone_Da_105-56>
+		<_90mm_Cannone_Da_90-53M>63</_90mm_Cannone_Da_90-53M>
+		<_90mm_Cannone_Da_90-60>64</_90mm_Cannone_Da_90-60>
+		<_105mm_Cannone_Da_105-25>65</_105mm_Cannone_Da_105-25>
+		<_75mm_Cannone_Da_75-34M>66</_75mm_Cannone_Da_75-34M>
+		<_90mm_Cannone_Da_90-53F>67</_90mm_Cannone_Da_90-53F>
+		<_75mm_Cannone_Da_75-18>68</_75mm_Cannone_Da_75-18>
+		<_75mm_Cannone_Da_75-27>69</_75mm_Cannone_Da_75-27>
+		<_75mm_Cannone_Da_75-34>70</_75mm_Cannone_Da_75-34>
 		<_90mm_Cannone_da_42_BP>71</_90mm_Cannone_da_42_BP>
+		<_105mm_kan_strv_K_L52>72</_105mm_kan_strv_K_L52>
+		<_105mm_Cannone_da_105_55>73</_105mm_Cannone_da_105_55>
 	</ids>
 	<shared>
 		<Cannone_da_105_51_M68>
@@ -2600,7 +2616,7 @@
 					<speed>758</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>160 142</piercingPower>
+					<piercingPower>155 138</piercingPower>
 				</_90mm_AP>
 				<_90mm_APCR>
 					<defaultPortion>0.0</defaultPortion>
@@ -3047,27 +3063,812 @@
 			<shots>
 				<_130mm_APCBC_T14E>
 					<defaultPortion>0.8</defaultPortion>
-					<speed>850</speed>
+					<speed>790</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
 					<piercingPower>275 260</piercingPower>
 				</_130mm_APCBC_T14E>
 				<_130mm_HVAP_T17E>
 					<defaultPortion>0</defaultPortion>
-					<speed>1027</speed>
+					<speed>910</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>320 285</piercingPower>
+					<piercingPower>340 340</piercingPower>
 				</_130mm_HVAP_T17E>
 				<_130mm_HE_T15HE>
 					<defaultPortion>0.2</defaultPortion>
 					<speed>750</speed>
 					<gravity>9.81</gravity>
-					<maxDistance>720</maxDistance>
+					<maxDistance>680</maxDistance>
 					<piercingPower>65 65</piercingPower>
 				</_130mm_HE_T15HE>
 			</shots>
 		</_130mm_Cannone_Da_130-45>
+		<_120mm_Cannone_Da_120-60>
+			<userString>#european_vehicles:_120mm_Cannone_Da_120-60</userString>
+			<shortUserString>#european_vehicles:_120mm_Cannone_Da_120-60_short</shortUserString>
+			<description>#european_vehicles:_120mm_Cannone_Da_120-60_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<impulse>0.64</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.2</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.2</returnTime>
+			</recoil>
+			<effects>wpn_shot_large_mb</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-10 10</pitchLimits>
+			<rotationSpeed>20</rotationSpeed>
+			<reloadTime>7.5</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>1.0</aimingTime>
+			<weight>1850</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.1</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.1</turretRotation>
+				<afterShot>1</afterShot>
+				<whileGunDamaged>1.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_120mm_APCBC_T14E>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>890</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>235 205</piercingPower>
+				</_120mm_APCBC_T14E>
+				<_120mm_HVAP_T17E>
+					<defaultPortion>0</defaultPortion>
+					<speed>780</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>285 285</piercingPower>
+				</_120mm_HVAP_T17E>
+				<_120mm_HE_T15HE>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>740</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_120mm_HE_T15HE>
+			</shots>
+		</_120mm_Cannone_Da_120-60>
+		<_127mm_Cannone_Da_127-58>
+			<userString>#european_vehicles:_127mm_Cannone_Da_127-58</userString>
+			<shortUserString>#european_vehicles:_127mm_Cannone_Da_127-58_short</shortUserString>
+			<description>#european_vehicles:_127mm_Cannone_Da_127-58_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<impulse>0.64</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.64</returnTime>
+			</recoil>
+			<effects>shot_large_extra</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>11.1</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>2.85</aimingTime>
+			<weight>1950</weight>
+			<maxHealth>240</maxHealth>
+			<maxRegenHealth>120</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.331</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_127mm_APCBC_T14E>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>259 239</piercingPower>
+				</_127mm_APCBC_T14E>
+				<_127mm_HVAP_T17E>
+					<defaultPortion>0</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>326 326</piercingPower>
+				</_127mm_HVAP_T17E>
+				<_127mm_HE_T15HE>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>65 65</piercingPower>
+				</_127mm_HE_T15HE>
+			</shots>
+		</_127mm_Cannone_Da_127-58>
+		<_105mm_Cannone_Da_105-56M>
+			<userString>#european_vehicles:_105mm_Cannone_Da_105-56M</userString>
+			<shortUserString>#european_vehicles:_105mm_Cannone_Da_105-56M_short</shortUserString>
+			<description>#european_vehicles:_105mm_Cannone_Da_105-56M_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.1</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.1</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.44</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>18</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>72</maxAmmo>
+			<aimingTime>1.0</aimingTime>
+			<weight>1980</weight>
+			<maxHealth>190</maxHealth>
+			<maxRegenHealth>95</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.16</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.34</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_APCBC_T14E>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>890</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>218 198</piercingPower>
+				</_105mm_APCBC_T14E>
+				<_105mm_HVAP_T17E>
+					<defaultPortion>0</defaultPortion>
+					<speed>1036</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>277 277</piercingPower>
+				</_105mm_HVAP_T17E>
+				<_105mm_HE_T15HE>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>728</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_105mm_HE_T15HE>
+			</shots>
+		</_105mm_Cannone_Da_105-56M>
+		<_105mm_Cannone_Da_105-73>
+			<userString>#european_vehicles:_105mm_Cannone_Da_105-73</userString>
+			<shortUserString>#european_vehicles:_105mm_Cannone_Da_105-73_short</shortUserString>
+			<description>#european_vehicles:_105mm_Cannone_Da_105-73_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.65</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.44</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>18</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>72</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>2148</weight>
+			<maxHealth>190</maxHealth>
+			<maxRegenHealth>95</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.16</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.34</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_APCBC_T14EM>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>890</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>229 201</piercingPower>
+				</_105mm_APCBC_T14EM>
+				<_105mm_HVAP_T17EM>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>1036</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>285 285</piercingPower>
+				</_105mm_HVAP_T17EM>
+				<_105mm_HE_T15HEM>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>728</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_105mm_HE_T15HEM>
+			</shots>
+		</_105mm_Cannone_Da_105-73>
+		<_120mm_Cannone_Da_120-55>
+			<userString>#european_vehicles:_120mm_Cannone_Da_120-55</userString>
+			<shortUserString>#european_vehicles:_120mm_Cannone_Da_120-55_short</shortUserString>
+			<description>#european_vehicles:_120mm_Cannone_Da_120-55_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.56</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.64</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 7</pitchLimits>
+			<rotationSpeed>18</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>2248</weight>
+			<maxHealth>220</maxHealth>
+			<maxRegenHealth>110</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.15</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.35</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_120mm_APCBC_T14EM>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>874</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>225 207</piercingPower>
+				</_120mm_APCBC_T14EM>
+				<_120mm_HVAP_T17EM>
+					<defaultPortion>0</defaultPortion>
+					<speed>1038</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>281 281</piercingPower>
+				</_120mm_HVAP_T17EM>
+				<_120mm_HE_T15HEM>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>738</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_120mm_HE_T15HEM>
+			</shots>
+		</_120mm_Cannone_Da_120-55>
+		<_105mm_Cannone_Da_105-56>
+			<userString>#european_vehicles:_105mm_Cannone_Da_105-56</userString>
+			<shortUserString>#european_vehicles:_105mm_Cannone_Da_105-56_short</shortUserString>
+			<description>#european_vehicles:_105mm_Cannone_Da_105-56_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.4</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.6</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 10</pitchLimits>
+			<rotationSpeed>23</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>90</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1000</weight>
+			<maxHealth>230</maxHealth>
+			<maxRegenHealth>115</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_APCBC_T14EF>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>790</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>197 174</piercingPower>
+				</_105mm_APCBC_T14EF>
+				<_105mm_HVAP_T17EF>
+					<defaultPortion>0</defaultPortion>
+					<speed>780</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>245 245</piercingPower>
+				</_105mm_HVAP_T17EF>
+				<_105mm_HE_T15HEF>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>680</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_HE_T15HEF>
+			</shots>
+		</_105mm_Cannone_Da_105-56>
+		<_90mm_Cannone_Da_90-53M>
+			<userString>#european_vehicles:_90mm_Cannone_Da_90-53M</userString>
+			<shortUserString>#european_vehicles:_90mm_Cannone_Da_90-53M_short</shortUserString>
+			<description>#european_vehicles:_90mm_Cannone_Da_90-53M_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.4</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.6</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 10</pitchLimits>
+			<rotationSpeed>23</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>90</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1000</weight>
+			<maxHealth>230</maxHealth>
+			<maxRegenHealth>115</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_90mm_APCBC_T14E>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>810</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>195 172</piercingPower>
+				</_90mm_APCBC_T14E>
+				<_90mm_HVAP_T17E>
+					<defaultPortion>0</defaultPortion>
+					<speed>780</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>242 242</piercingPower>
+				</_90mm_HVAP_T17E>
+				<_90mm_HE_T15HE>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>680</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>55 55</piercingPower>
+				</_90mm_HE_T15HE>
+			</shots>
+		</_90mm_Cannone_Da_90-53M>
+		<_90mm_Cannone_Da_90-60>
+			<userString>#european_vehicles:_90mm_Cannone_Da_90-60</userString>
+			<shortUserString>#european_vehicles:_90mm_Cannone_Da_90-60_short</shortUserString>
+			<description>#european_vehicles:_90mm_Cannone_Da_90-60_descr</description>
+			<tags/>
+			<level>7</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.4</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.6</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 10</pitchLimits>
+			<rotationSpeed>23</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>90</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1000</weight>
+			<maxHealth>230</maxHealth>
+			<maxRegenHealth>115</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_90mm_APCBC_T14EM>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>810</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>208 185</piercingPower>
+				</_90mm_APCBC_T14EM>
+				<_90mm_HVAP_T17EM>
+					<defaultPortion>0</defaultPortion>
+					<speed>780</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>252 252</piercingPower>
+				</_90mm_HVAP_T17EM>
+				<_90mm_HE_T15HEM>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>680</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_90mm_HE_T15HEM>
+			</shots>
+		</_90mm_Cannone_Da_90-60>
+		<_105mm_Cannone_Da_105-25>
+			<userString>#european_vehicles:_105mm_Cannone_Da_105-25</userString>
+			<shortUserString>#european_vehicles:_105mm_Cannone_Da_105-25_short</shortUserString>
+			<description>#european_vehicles:_105mm_Cannone_Da_105-25_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.1</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.1</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.1</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-17 8</pitchLimits>
+			<rotationSpeed>21.875</rotationSpeed>
+			<reloadTime>7.4</reloadTime>
+			<maxAmmo>42</maxAmmo>
+			<aimingTime>2.28</aimingTime>
+			<weight>3000</weight>
+			<maxHealth>170</maxHealth>
+			<maxRegenHealth>85</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.297</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.342</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_APCBC_T14EG>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1064</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>172 161</piercingPower>
+				</_105mm_APCBC_T14EG>
+				<_105mm_HVAP_T17EG>
+					<defaultPortion>0</defaultPortion>
+					<speed>936</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>239 239</piercingPower>
+				</_105mm_HVAP_T17EG>
+				<_105mm_HE_T15HEG>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>827</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>50 50</piercingPower>
+				</_105mm_HE_T15HEG>
+			</shots>
+		</_105mm_Cannone_Da_105-25>
+		<_75mm_Cannone_Da_75-34M>
+			<userString>#european_vehicles:_75mm_Cannone_Da_75-34M</userString>
+			<shortUserString>#european_vehicles:_75mm_Cannone_Da_75-34M_short</shortUserString>
+			<description>#european_vehicles:_75mm_Cannone_Da_75-34M_descr</description>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<impulse>0.1</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.1</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.1</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-17 6</pitchLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>3.86</reloadTime>
+			<maxAmmo>87</maxAmmo>
+			<aimingTime>1.71</aimingTime>
+			<weight>1520</weight>
+			<maxHealth>120</maxHealth>
+			<maxRegenHealth>60</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.364</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_APCBC_T14E>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1080</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>155 143</piercingPower>
+				</_75mm_APCBC_T14E>
+				<_75mm_HVAP_T17E>
+					<defaultPortion>0</defaultPortion>
+					<speed>920</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>200 200</piercingPower>
+				</_75mm_HVAP_T17E>
+				<_75mm_HE_T15HE>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>870</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>45 45</piercingPower>
+				</_75mm_HE_T15HE>
+			</shots>
+		</_75mm_Cannone_Da_75-34M>
+		<_90mm_Cannone_Da_90-53F>
+			<userString>#european_vehicles:_90mm_Cannone_Da_90-53F</userString>
+			<shortUserString>#european_vehicles:_90mm_Cannone_Da_90-53F_short</shortUserString>
+			<description>#european_vehicles:_90mm_Cannone_Da_90-53F_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.1</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.1</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.1</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 5</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>5.86</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.71</aimingTime>
+			<weight>2050</weight>
+			<maxHealth>150</maxHealth>
+			<maxRegenHealth>75</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.354</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_90mm_APCBC_T14EX>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1080</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>165 153</piercingPower>
+				</_90mm_APCBC_T14EX>
+				<_90mm_HVAP_T17EX>
+					<defaultPortion>0</defaultPortion>
+					<speed>940</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>218 218</piercingPower>
+				</_90mm_HVAP_T17EX>
+				<_90mm_HE_T15HEX>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>887</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>48 48</piercingPower>
+				</_90mm_HE_T15HEX>
+			</shots>
+		</_90mm_Cannone_Da_90-53F>
+		<_75mm_Cannone_Da_75-18>
+			<userString>#european_vehicles:_75mm_Cannone_Da_75-18</userString>
+			<shortUserString>#european_vehicles:_75mm_Cannone_Da_75-18_short</shortUserString>
+			<description>#european_vehicles:_75mm_Cannone_Da_75-18_descr</description>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.48</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 5</pitchLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>3.88</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1740</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.220</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.33</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_APCBC_T14EG>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>132 122</piercingPower>
+				</_75mm_APCBC_T14EG>
+				<_75mm_HVAP_T17EG>
+					<defaultPortion>0</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>186 186</piercingPower>
+				</_75mm_HVAP_T17EG>
+				<_75mm_HE_T15HEG>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>840</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>35 35</piercingPower>
+				</_75mm_HE_T15HEG>
+			</shots>
+		</_75mm_Cannone_Da_75-18>
+		<_75mm_Cannone_Da_75-27>
+			<userString>#european_vehicles:_75mm_Cannone_Da_75-27</userString>
+			<shortUserString>#european_vehicles:_75mm_Cannone_Da_75-27_short</shortUserString>
+			<description>#european_vehicles:_75mm_Cannone_Da_75-27_descr</description>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.48</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 5</pitchLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>3.88</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1740</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.220</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.33</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_APCBC_T14EXR>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>139 129</piercingPower>
+				</_75mm_APCBC_T14EXR>
+				<_75mm_HVAP_T17EXR>
+					<defaultPortion>0</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>193 193</piercingPower>
+				</_75mm_HVAP_T17EXR>
+				<_75mm_HE_T15HEXR>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>840</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>37 37</piercingPower>
+				</_75mm_HE_T15HEXR>
+			</shots>
+		</_75mm_Cannone_Da_75-27>
+		<_75mm_Cannone_Da_75-34>
+			<userString>#european_vehicles:_75mm_Cannone_Da_75-34</userString>
+			<shortUserString>#european_vehicles:_75mm_Cannone_Da_75-34_short</shortUserString>
+			<description>#european_vehicles:_75mm_Cannone_Da_75-34_descr</description>
+			<tags/>
+			<level>5</level>
+			<price>0</price>
+			<impulse>0.38</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.48</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 5</pitchLimits>
+			<rotationSpeed>35.0</rotationSpeed>
+			<reloadTime>3.88</reloadTime>
+			<maxAmmo>60</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1740</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.220</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.33</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>3.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_75mm_APCBC_T14ES>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>145 135</piercingPower>
+				</_75mm_APCBC_T14ES>
+				<_75mm_HVAP_T17ES>
+					<defaultPortion>0</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>202 202</piercingPower>
+				</_75mm_HVAP_T17ES>
+				<_75mm_HE_T15HES>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>1000</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>38 38</piercingPower>
+				</_75mm_HE_T15HES>
+			</shots>
+		</_75mm_Cannone_Da_75-34>
 		<_90mm_Cannone_da_42_BP>
 			<userString>#european_vehicles:_90mm_Cannone_da_42_BP</userString>
 			<shortUserString>#european_vehicles:_90mm_Cannone_da_42_BP_short</shortUserString>
@@ -3124,6 +3925,117 @@
 				</_90mm_c_g_90_42_53BP>
 			</shots>
 		</_90mm_Cannone_da_42_BP>
+		<_105mm_kan_strv_K_L52>
+			<userString>#european_vehicles:_105mm_kan_strv_K_L52</userString>
+			<shortUserString>#european_vehicles:_105mm_kan_strv_K_L52_short</shortUserString>
+			<description>#european_vehicles:_105mm_kan_strv_K_L52_descr</description>
+			<tags/>
+			<level>10</level>
+			<price>0</price>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.56</amplitude>
+				<backoffTime>0.56</backoffTime>
+				<returnTime>0.56</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>35</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>46</maxAmmo>
+			<aimingTime>2</aimingTime>
+			<weight>2390</weight>
+			<maxHealth>194</maxHealth>
+			<maxRegenHealth>97</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.05</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_slpgr_M612>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>980</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>259 233</piercingPower>
+				</_105mm_slpgr_M612>
+				<_105mm_slpprj_M62>
+					<defaultPortion>0</defaultPortion>
+					<speed>1120</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>310 279</piercingPower>
+				</_105mm_slpprj_M62>
+				<_105mm_sgr_M61S>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>870</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_sgr_M61S>
+			</shots>
+		</_105mm_kan_strv_K_L52>
+		<_105mm_Cannone_da_105_55>
+			<userString>#european_vehicles:_105mm_Cannone_da_105_55</userString>
+			<shortUserString>#european_vehicles:_105mm_Cannone_da_105_55_short</shortUserString>
+			<description>#european_vehicles:_105mm_Cannone_da_105_55_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.16</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.24</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>35.1</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>2400</weight>
+			<maxHealth>180</maxHealth>
+			<maxRegenHealth>90</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.42</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_AP_M352A>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>945</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>225 203</piercingPower>
+				</_105mm_AP_M352A>
+				<_105mm_HEAT_M456A>
+					<defaultPortion>0</defaultPortion>
+					<speed>940</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>255 255</piercingPower>
+				</_105mm_HEAT_M456A>
+				<_105mm_HESH_M353A>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>920</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>53 53</piercingPower>
+				</_105mm_HESH_M353A>
+			</shots>
+		</_105mm_Cannone_da_105_55>
 	</shared>
 </root>
-

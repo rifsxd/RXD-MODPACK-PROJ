@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/usa-M36_BP</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/usa-M36_BP</bigIconPath>
-		<blitzModelPath>Tanks/USA/M36_BP.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/usa/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/usa/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/usa-M36_BP.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner/>
@@ -126,10 +114,6 @@
 	</hull>
 	<chassis>
 		<Chassis_M36_BP>
-			<blitz>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#usa_vehicles:Chassis_M36_BP</userString>
 			<shortUserString>#usa_vehicles:Chassis_M36_BP_short</shortUserString>
 			<description>#usa_vehicles:Chassis_M36_BP_descr</description>
@@ -259,18 +243,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_90mm_AT_Gun_M3_BP>shared<blitz>
-						<armorScale/>
-						<pushNormalsScale/>
-						<blitzPartName>gun_01</blitzPartName>
-						<bbox>
-							<min>0.0 0.0 0.0</min>
-							<max>0.0 0.0 0.0</max>
-						</bbox>
-						<points>
-							<normal>0.0 0.0 0.0</normal>
-						</points>
-					</blitz>
+				<_90mm_AT_Gun_M3_BP>shared<effects>shot_main</effects>
 					<maxAmmo>50</maxAmmo>
 					<hitTester>
 						<collisionModel>vehicles/american/M36_BP/collision/Gun_01.model</collisionModel>
@@ -353,4 +326,3 @@
 		<SCR_508>shared</SCR_508>
 	</radios>
 </root>
-

@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/china-Ch43_WZ-122_2</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/china-Ch43_WZ-122_2</bigIconPath>
-		<blitzModelPath>Tanks/China/Ch43_WZ-122_2.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/ussr/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/ussr/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/china-Ch43_WZ-122_2.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander/>
 		<gunner/>
@@ -57,21 +45,6 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<blitz>
-			<armorScale>0.0085 0.0085 0.0085</armorScale>
-			<pushNormalsScale/>
-			<averageThickness>
-				<turret_01>122.187965</turret_01>
-			</averageThickness>
-			<blitzPartName>hull</blitzPartName>
-			<bbox>
-				<min>-1.664281 -3.185171 0.369231</min>
-				<max>1.660491 3.240753 1.423321</max>
-			</bbox>
-			<points>
-				<normal>-0.000494 -0.001605 0.000394</normal>
-			</points>
-		</blitz>
 		<swinging>
 			<lodDist>FAR</lodDist>
 			<pitchParams>0.28 34.00 0.42 1.00 0.05 0.30</pitchParams>
@@ -138,18 +111,6 @@
 	</hull>
 	<chassis>
 		<Chassis_Ch43_WZ_122_2>
-			<blitz>
-				<blitzPartName>chassis</blitzPartName>
-				<bbox>
-					<min>-1.609825 -3.203623 0.000130</min>
-					<max>1.610022 3.079660 0.965770</max>
-				</bbox>
-				<points>
-					<normal>0.000618 -0.000810 0.000000</normal>
-				</points>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#china_vehicles:Chassis_Ch43_WZ_122_2</userString>
 			<shortUserString>#china_vehicles:Chassis_Ch43_WZ_122_2_short</shortUserString>
 			<description>#china_vehicles:Chassis_Ch43_WZ_122_2_descr</description>
@@ -235,18 +196,6 @@
 	</chassis>
 	<turrets0>
 		<Turret_1_Ch43_WZ_122_2>
-			<blitz>
-				<armorScale>0.0254 0.0254 0.0254</armorScale>
-				<pushNormalsScale/>
-				<blitzPartName>turret_01</blitzPartName>
-				<bbox>
-					<min>-1.374739 -1.599183 -0.353525</min>
-					<max>1.366618 1.795329 0.955836</max>
-				</bbox>
-				<points>
-					<normal>-0.000200 0.122726 -1.400644</normal>
-				</points>
-			</blitz>
 			<userString>#china_vehicles:Turret_1_Ch43_WZ_122_2</userString>
 			<description>#china_vehicles:Turret_1_Ch43_WZ_122_2_descr</description>
 			<tags/>
@@ -293,19 +242,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_120mm_TG>shared<blitz>
-						<armorScale>0.0310 0.0310 0.0310</armorScale>
-						<pushNormalsScale/>
-						<blitzPartName>gun_01</blitzPartName>
-						<bbox>
-							<min>-0.246632 -1.168052 -0.275663</min>
-							<max>0.232464 4.683411 0.278192</max>
-						</bbox>
-						<points>
-							<normal>-0.000720 -1.209846 -1.738867</normal>
-						</points>
-					</blitz>
-					<maxAmmo>42</maxAmmo>
+				<_120mm_TG>shared<maxAmmo>42</maxAmmo>
 					<hitTester>
 						<collisionModel>vehicles/chinese/Ch43_WZ-122_2/collision/Gun_01.model</collisionModel>
 					</hitTester>
@@ -336,6 +273,7 @@
 					<extraPitchLimits>
 						<back>-15 4 15</back>
 					</extraPitchLimits>
+					<effects>shot_large</effects>
 					<shots>
 						<_120mm_CB-472LY>
 							<shell>shared<price>0</price>
@@ -383,4 +321,3 @@
 		<A-220B_1>shared</A-220B_1>
 	</radios>
 </root>
-

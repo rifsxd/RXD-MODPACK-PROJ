@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-S13_Leo_NY</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/european-S13_Leo_NY</bigIconPath>
-		<blitzModelPath>Tanks/European/S13_Leo_NY.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/de/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/de/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new_2.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/european-S13_Leo_NY.sc2</collisionMesh>
-		<customEffects/>
-	</blitz>
 	<crew>
 		<commander>radioman</commander>
 		<driver/>
@@ -58,19 +46,6 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
-		<blitz>
-			<averageThickness>
-				<turret_01>80.203331</turret_01>
-			</averageThickness>
-			<blitzPartName>hull</blitzPartName>
-			<bbox>
-				<min>-1.501100 -3.250688 0.305966</min>
-				<max>1.501100 3.070715 1.516505</max>
-			</bbox>
-			<points>
-				<normal>0.000000 -0.000275 -0.000899</normal>
-			</points>
-		</blitz>
 		<swinging>
 			<lodDist>FAR</lodDist>
 			<pitchParams>0.28 34.00 0.42 1.00 0.05 0.30</pitchParams>
@@ -133,18 +108,6 @@
 	</hull>
 	<chassis>
 		<Chassis_S13_Leo_NY>
-			<blitz>
-				<blitzPartName>chassis</blitzPartName>
-				<bbox>
-					<min>-1.572115 -3.029000 -0.000004</min>
-					<max>1.572115 2.990109 1.216345</max>
-				</bbox>
-				<points>
-					<normal>0.000000 0.000000 -0.000000</normal>
-				</points>
-				<soundPC>tanks/pc/treads/mt</soundPC>
-				<soundNPC>tanks/npc/treads/mt</soundNPC>
-			</blitz>
 			<userString>#european_vehicles:Chassis_S13_Leo_NY</userString>
 			<shortUserString>#european_vehicles:Chassis_S13_Leo_NY_short</shortUserString>
 			<description>#european_vehicles:Chassis_S13_Leo_NY_descr</description>
@@ -230,16 +193,6 @@
 	</chassis>
 	<turrets0>
 		<Turret_1_S13_Leo_NY>
-			<blitz>
-				<blitzPartName>turret_01</blitzPartName>
-				<bbox>
-					<min>-1.309971 -1.680806 -0.295749</min>
-					<max>1.309965 1.214282 0.989841</max>
-				</bbox>
-				<points>
-					<normal>-0.000061 -0.241604 -1.423926</normal>
-				</points>
-			</blitz>
 			<userString>#european_vehicles:Turret_1_S13_Leo_NY</userString>
 			<description>#european_vehicles:Turret_1_S13_Leo_NY_descr</description>
 			<tags/>
@@ -287,17 +240,7 @@
 				<repairCost>0.0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_105mm_kan_m_34NY>shared<blitz>
-						<blitzPartName>gun_01</blitzPartName>
-						<bbox>
-							<min>-0.406674 -0.855222 -0.279168</min>
-							<max>0.406678 2.987749 0.301126</max>
-						</bbox>
-						<points>
-							<normal>-0.000150 -1.075396 -1.757255</normal>
-						</points>
-					</blitz>
-					<maxAmmo>35</maxAmmo>
+				<_105mm_kan_m_34NY>shared<maxAmmo>35</maxAmmo>
 					<hitTester>
 						<collisionModel>vehicles/european/S13_Leo_NY/collision/Gun_01.model</collisionModel>
 					</hitTester>
@@ -330,6 +273,7 @@
 					<extraPitchLimits>
 						<back>-15 6 40</back>
 					</extraPitchLimits>
+					<effects>shot_large</effects>
 					<shots>
 						<_105mm_slpgr_m_43_1>
 							<shell>shared<price>0</price>
@@ -377,4 +321,3 @@
 		<Ra_400NY>shared</Ra_400NY>
 	</radios>
 </root>
-

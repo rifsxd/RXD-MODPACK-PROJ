@@ -859,7 +859,7 @@
 					<speed>773</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>150 135</piercingPower>
+					<piercingPower>155 140</piercingPower>
 				</_88mm_Pzgr39>
 				<_88mm_Pzgr.40>
 					<defaultPortion>0.0</defaultPortion>
@@ -2242,4 +2242,3 @@
 		</_127mm_Gun_Type57_L50>
 	</shared>
 </root>
-

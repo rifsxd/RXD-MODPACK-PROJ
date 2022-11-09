@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>53</nextAvailableId>
+	<nextAvailableId>64</nextAvailableId>
 	<ids>
 		<_100mm_59>0</_100mm_59>
 		<_85mm_Tip_62-85TS>1</_85mm_Tip_62-85TS>
@@ -43,6 +43,8 @@
 		<_85mm_Tip_56-85BP>50</_85mm_Tip_56-85BP>
 		<_85mm_Tip_56-85TU>51</_85mm_Tip_56-85TU>
 		<_120mm_TG>52</_120mm_TG>
+		<_130mm_59-130M>53</_130mm_59-130M>
+		<_105mm_L7A3C>56</_105mm_L7A3C>
 	</ids>
 	<shared>
 		<_37mm_APX_SA18>
@@ -2245,6 +2247,117 @@
 				</_120mm_SB-472LY>
 			</shots>
 		</_120mm_TG>
+		<_130mm_59-130M>
+			<userString>#china_vehicles:_130mm_59-130M</userString>
+			<shortUserString>#china_vehicles:_130mm_59-130M_short</shortUserString>
+			<description>#china_vehicles:_130mm_59-130M_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<impulse>0.62</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.66</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.64</returnTime>
+			</recoil>
+			<effects>shot_large_extra</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>27.1</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>40</maxAmmo>
+			<aimingTime>3.42</aimingTime>
+			<weight>3090</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_130mm_Chuan_bei-462G>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>810</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>254 215</piercingPower>
+				</_130mm_Chuan_bei-462G>
+				<_130mm_Po-130F>
+					<defaultPortion>0</defaultPortion>
+					<speed>726</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>310 310</piercingPower>
+				</_130mm_Po-130F>
+				<_130mm_Sha_bao-482G>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>693</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>65 65</piercingPower>
+				</_130mm_Sha_bao-482G>
+			</shots>
+		</_130mm_59-130M>
+		<_105mm_L7A3C>
+			<userString>#china_vehicles:_105mm_L7A3C</userString>
+			<shortUserString>#china_vehicles:_105mm_L7A3C_short</shortUserString>
+			<description>#china_vehicles:_105mm_L7A3C_descr</description>
+			<tags/>
+			<level>10</level>
+			<price>0</price>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.1</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.1</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>35.1</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1436</weight>
+			<maxHealth>208</maxHealth>
+			<maxRegenHealth>104</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.17</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.42</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.05</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_105mm_APDS-M392A2>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1163</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>245 221</piercingPower>
+				</_105mm_APDS-M392A2>
+				<_105mm_HEAT-M456>
+					<defaultPortion>0</defaultPortion>
+					<speed>976</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>298 298</piercingPower>
+				</_105mm_HEAT-M456>
+				<_105mm_HEP-M393A1>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>948</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>55 55</piercingPower>
+				</_105mm_HEP-M393A1>
+			</shots>
+		</_105mm_L7A3C>
 	</shared>
 </root>
-

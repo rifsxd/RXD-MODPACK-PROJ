@@ -271,6 +271,7 @@
 					</shotDispersionFactors>
 					<invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
 					<pitchLimits>-20 7</pitchLimits>
+					<effects>shot_main</effects>
 					<clip>
 						<count>3</count>
 						<rate>24</rate>
@@ -325,4 +326,3 @@
 		<desertPower/>
 	</extras>
 </root>
-

@@ -295,6 +295,7 @@
 							</shell>
 						</_77mm_HE_Mk1TBP>
 					</shots>
+					<effects>shot_main</effects>
 				</OQF_77mm_Gun_MkII_BP>
 			</guns>
 			<emblemSlots>
@@ -327,4 +328,3 @@
 		<N19Mk1BP>shared</N19Mk1BP>
 	</radios>
 </root>
-

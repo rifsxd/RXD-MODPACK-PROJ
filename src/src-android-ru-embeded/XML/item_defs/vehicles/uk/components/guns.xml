@@ -4104,10 +4104,10 @@
 			<shots>
 				<_95mm_HEAT_Mk1>
 					<defaultPortion>0.8</defaultPortion>
-					<speed>243</speed>
+					<speed>331</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>155 155</piercingPower>
+					<piercingPower>155 140</piercingPower>
 				</_95mm_HEAT_Mk1>
 				<_95mm_HEAT_Mk3>
 					<defaultPortion>0.0</defaultPortion>

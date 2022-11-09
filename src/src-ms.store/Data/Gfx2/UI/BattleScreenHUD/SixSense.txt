@@ -1,0 +1,7 @@
+1
+rxd_SixSense.packed.webp
+200 200
+3
+2 400 300 300 -50 -200 0 frame0
+0 0 0 0 0 0 0 frame1
+2 100 60 60 72 -100 0 frame2

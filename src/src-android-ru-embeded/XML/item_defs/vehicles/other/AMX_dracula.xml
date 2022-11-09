@@ -1,16 +1,4 @@
 <root>
-	<blitz>
-		<smallIconPath>~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/other-AMX_Dracula</smallIconPath>
-		<bigIconPath>~res:/Gfx/UI/BigTankIcons/other-AMX_Dracula</bigIconPath>
-		<blitzModelPath>Tanks/Other/AMX_Dracula.sc2</blitzModelPath>
-		<engineSoundPC>tanks/pc/engine/usa/mt</engineSoundPC>
-		<engineSoundNPC>tanks/npc/engine/usa/mt</engineSoundNPC>
-		<smokeEffectPath>FX/smoke_tank_type_black_new.sc2</smokeEffectPath>
-		<fireEffectPathAlive>FX/SmokeFire_tank_movement_new.sc2</fireEffectPathAlive>
-		<fireEffectPathDead>FX/Fire_and_Smoke.sc2</fireEffectPathDead>
-		<collisionMesh>CollisionMeshes/other-AMX_dracula.sc2</collisionMesh>
-		<enableReflection>false</enableReflection>
-	</blitz>
 	<crew>
 		<commander>radioman</commander>
 		<gunner/>
@@ -430,6 +418,7 @@
 						</insigniaOnGun>
 					</emblemSlots>
 					<animateEmblemSlots>true</animateEmblemSlots>
+					<effects>shot_main</effects>
 					<camouflage>
 						<tiling>0.955 0.46 0.000000 0.000000</tiling>
 					</camouflage>
@@ -506,4 +495,3 @@
 		<SCR_528A>shared</SCR_528A>
 	</radios>
 </root>
-

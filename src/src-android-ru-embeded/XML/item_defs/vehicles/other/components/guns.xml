@@ -221,7 +221,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.4</returnTime>
 			</recoil>
-			<effects>shot_main</effects>
+			<effects>shot_main_dual</effects>
 			<pitchLimits>-15 6</pitchLimits>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<rotationSpeed>43.75</rotationSpeed>
