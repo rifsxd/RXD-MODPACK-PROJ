@@ -3700,7 +3700,7 @@
 				<backoffTime>0.1</backoffTime>
 				<returnTime>0.1</returnTime>
 			</recoil>
-			<effects>shot_main</effects>
+			<effects>shot_large</effects>
 			<turretYawLimits>-20 20</turretYawLimits>
 			<pitchLimits>-20 10</pitchLimits>
 			<rotationSpeed>35.0</rotationSpeed>

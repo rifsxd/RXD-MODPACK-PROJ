@@ -3098,7 +3098,7 @@
 				<backoffTime>0.2</backoffTime>
 				<returnTime>0.2</returnTime>
 			</recoil>
-			<effects>wpn_shot_large_mb</effects>
+			<effects>shot_large</effects>
 			<turretYawLimits>-180 180</turretYawLimits>
 			<pitchLimits>-10 10</pitchLimits>
 			<rotationSpeed>20</rotationSpeed>
