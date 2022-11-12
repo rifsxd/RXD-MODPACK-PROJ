@@ -1,5 +1,5 @@
 Current.Blitz.Version --> 9.4.0
-Latest.Patch.Date --> 09.11.22
+Latest.Patch.Date --> 12.11.22
 Source.Code.Patch.Version --> {
 								"Android:3.3",
 								"Steam:3.3",
