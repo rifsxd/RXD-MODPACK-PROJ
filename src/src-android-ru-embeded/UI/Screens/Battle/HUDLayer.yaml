@@ -469,7 +469,6 @@ Prototypes:
     components:
         Background:
             drawType: "DRAW_STRETCH_BOTH"
-            sprite: "~res:/Gfx/UI/BattleScreenHUD/AmmoType"
             colorInherit: "COLOR_MULTIPLY_ALPHA_ONLY"
             perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
         Anchor:
