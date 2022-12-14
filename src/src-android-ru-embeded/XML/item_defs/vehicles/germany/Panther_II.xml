@@ -81,7 +81,7 @@
 		</armor>
 		<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 		<weight>25490</weight>
-		<maxHealth>1080</maxHealth>
+		<maxHealth>1030</maxHealth>
 		<ammoBayHealth>
 			<maxHealth>200</maxHealth>
 			<maxRegenHealth>135</maxRegenHealth>
@@ -564,7 +564,7 @@
 				</_88mm_KwK_36_L56>
 				<_88mm_KwK_43_L71>shared<maxAmmo>60</maxAmmo>
 					<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
-					<reloadTime>6.5</reloadTime>
+					<reloadTime>6.1</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.06</turretRotation>
 						<afterShot>4</afterShot>
@@ -587,7 +587,7 @@
 						</armor_3>
 						<gun>35</gun>
 					</armor>
-					<shotDispersionRadius>0.34</shotDispersionRadius>
+					<shotDispersionRadius>0.33</shotDispersionRadius>
 					<aimingTime>1.9</aimingTime>
 					<pitchLimits>-20 8</pitchLimits>
 					<extraPitchLimits>

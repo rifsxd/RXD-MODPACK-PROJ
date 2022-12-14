@@ -581,7 +581,7 @@
 						</_75mm_OE_mle_1915>
 					</shots>
 				</_75mm_Long_44_AC>
-				<_90mm_canon_DCA_30_CA>shared<effects>shot_main</effects>
+				<_90mm_canon_DCA_30_CA>shared<effects>shot_large</effects>
 					<maxAmmo>100</maxAmmo>
 					<unlocks>
 						<gun>_105mm_AC_mle_1930S<cost>9300</cost>

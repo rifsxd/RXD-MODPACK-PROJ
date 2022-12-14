@@ -505,7 +505,7 @@
 						</armor_5>
 						<gun>20</gun>
 					</armor>
-					<effects>shot_medium</effects>
+					<effects>shot_main</effects>
 					<maxAmmo>58</maxAmmo>
 					<shotDispersionRadius>0.33</shotDispersionRadius>
 					<aimingTime>1.7</aimingTime>

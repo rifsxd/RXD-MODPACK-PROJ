@@ -73,6 +73,7 @@
 		<_90mm_Cannone_da_42_BP>71</_90mm_Cannone_da_42_BP>
 		<_105mm_kan_strv_K_L52>72</_105mm_kan_strv_K_L52>
 		<_105mm_Cannone_da_105_55>73</_105mm_Cannone_da_105_55>
+		<_120mm_Bofors-M1F>74</_120mm_Bofors-M1F>
 	</ids>
 	<shared>
 		<Cannone_da_105_51_M68>
@@ -4037,5 +4038,61 @@
 				</_105mm_HESH_M353A>
 			</shots>
 		</_105mm_Cannone_da_105_55>
+		<_120mm_Bofors-M1F>
+			<userString>#european_vehicles:_120mm_Bofors-M1F</userString>
+			<shortUserString>#european_vehicles:_120mm_Bofors-M1F_short</shortUserString>
+			<description>#european_vehicles:_120mm_Bofors-M1F_descr</description>
+			<tags/>
+			<level>8</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.62</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.58</returnTime>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-15 11</pitchLimits>
+			<rotationSpeed>26.5</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>2790</weight>
+			<maxHealth>200</maxHealth>
+			<maxRegenHealth>100</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.35</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_120mm_slpprj-b68>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1100</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>227 193</piercingPower>
+				</_120mm_slpprj-b68>
+				<_120mm_slpprj-b71>
+					<defaultPortion>0</defaultPortion>
+					<speed>1200</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>265 250</piercingPower>
+				</_120mm_slpprj-b71>
+				<_120mm_slpprj-b51>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>900</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>68 68</piercingPower>
+				</_120mm_slpprj-b51>
+			</shots>
+		</_120mm_Bofors-M1F>
 	</shared>
 </root>

@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>64</nextAvailableId>
+	<nextAvailableId>65</nextAvailableId>
 	<ids>
 		<_100mm_59>0</_100mm_59>
 		<_85mm_Tip_62-85TS>1</_85mm_Tip_62-85TS>
@@ -2341,14 +2341,14 @@
 					<speed>1163</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>245 221</piercingPower>
+					<piercingPower>230 218</piercingPower>
 				</_105mm_APDS-M392A2>
 				<_105mm_HEAT-M456>
 					<defaultPortion>0</defaultPortion>
 					<speed>976</speed>
 					<gravity>9.81</gravity>
 					<maxDistance>720</maxDistance>
-					<piercingPower>298 298</piercingPower>
+					<piercingPower>295 295</piercingPower>
 				</_105mm_HEAT-M456>
 				<_105mm_HEP-M393A1>
 					<defaultPortion>0.2</defaultPortion>

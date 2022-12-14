@@ -430,7 +430,7 @@
 						</_75mm_Sprg.18L>
 					</shots>
 				</_75mm_StuK42_L70>
-				<_88mm_PaK_36_L56>shared<effects>shot_main</effects>
+				<_88mm_PaK_36_L56>shared<effects>shot_main_mb</effects>
 					<maxAmmo>55</maxAmmo>
 					<pitchLimits>-20 8</pitchLimits>
 					<unlocks>

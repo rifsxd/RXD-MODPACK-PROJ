@@ -60,7 +60,7 @@
 			<rates>6.0 16.0 34.0</rates>
 		</exhaust>
 		<turretPositions>
-			<turret>0.000000 1.4872 0.5987</turret>
+			<turret>0.000000 1.5195 0.5987</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/russian/R19_IS-3/collision/Hull.model</collisionModel>
@@ -71,7 +71,7 @@
 			</armor_2>
 			<armor_3>100</armor_3>
 			<armor_4>20</armor_4>
-			<armor_5>20</armor_5>
+			<armor_5>40</armor_5>
 			<armor_6>60</armor_6>
 			<armor_7>30<vehicleDamageFactor>0.0</vehicleDamageFactor>
 			</armor_7>
@@ -81,7 +81,7 @@
 			<armor_11>110</armor_11>
 			<armor_12>90</armor_12>
 			<armor_13>90</armor_13>
-			<armor_14>30</armor_14>
+			<armor_14>90</armor_14>
 			<armor_15>20</armor_15>
 			<armor_16>90</armor_16>
 		</armor>
@@ -341,7 +341,7 @@
 				<collisionModel>vehicles/russian/R19_IS-3/collision/Turret_01.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>0.0123 0.3493 1.3564</gunPosition>
+			<gunPosition>0.0000 0.3170 1.3564</gunPosition>
 			<armor>
 				<armor_1>142.5</armor_1>
 				<armor_2>104.5</armor_2>
@@ -388,12 +388,12 @@
 						</gun>
 					</unlocks>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_01.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_01.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_01.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_03.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_01.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -541,12 +541,12 @@
 						<back>-23 1 15</back>
 					</extraPitchLimits>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_04.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_04.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_04.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_05.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_04.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -632,7 +632,7 @@
 				<collisionModel>vehicles/russian/R19_IS-3/collision/Turret_02.model</collisionModel>
 			</hitTester>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>0.0123 0.3493 1.3564</gunPosition>
+			<gunPosition>0.0000 0.3331 1.3745</gunPosition>
 			<armor>
 				<armor_1>209</armor_1>
 				<armor_2>104.5</armor_2>
@@ -640,7 +640,7 @@
 				<armor_4>104.5</armor_4>
 				<armor_5>209</armor_5>
 				<armor_6>209</armor_6>
-				<armor_7>104.5</armor_7>
+				<armor_7>161</armor_7>
 				<armor_8>47.5</armor_8>
 				<armor_9>104.5</armor_9>
 				<armor_10>161.5</armor_10>
@@ -650,7 +650,7 @@
 				<armor_14>0</armor_14>
 				<armor_16>76</armor_16>
 			</armor>
-			<primaryArmor>armor_1 armor_4 armor_7</primaryArmor>
+			<primaryArmor>armor_1 armor_4 armor_4</primaryArmor>
 			<weight>11500</weight>
 			<maxHealth>440</maxHealth>
 			<rotationSpeed>20</rotationSpeed>
@@ -672,12 +672,12 @@
 						<back>-23 1 15</back>
 					</extraPitchLimits>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_03.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_05.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -722,12 +722,12 @@
 					</extraPitchLimits>
 					<reloadTime>9.22138646066274</reloadTime>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_02.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_02.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_02.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_06.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_06.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_06.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_02.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_06.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -770,12 +770,12 @@
 						<back>-23 1 15</back>
 					</extraPitchLimits>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_03.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_07.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_07.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_07.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_03.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_07.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>
@@ -819,12 +819,12 @@
 						<back>-23 1 15</back>
 					</extraPitchLimits>
 					<models>
-						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</undamaged>
-						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</destroyed>
-						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_05.model</exploded>
+						<undamaged>vehicles/russian/R19_IS-3/normal/lod0/Gun_08.model</undamaged>
+						<destroyed>vehicles/russian/R19_IS-3/normal/lod0/Gun_08.model</destroyed>
+						<exploded>vehicles/russian/R19_IS-3/normal/lod0/Gun_08.model</exploded>
 					</models>
 					<hitTester>
-						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_05.model</collisionModel>
+						<collisionModel>vehicles/russian/R19_IS-3/collision/Gun_08.model</collisionModel>
 					</hitTester>
 					<armor>
 						<armor_1>237.5<vehicleDamageFactor>0.0</vehicleDamageFactor>

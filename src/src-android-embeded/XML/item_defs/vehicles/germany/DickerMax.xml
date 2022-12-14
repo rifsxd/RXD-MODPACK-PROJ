@@ -12,8 +12,8 @@
 		<backward>12</backward>
 	</speedLimits>
 	<invisibility>
-		<moving>0.2</moving>
-		<still>0.31</still>
+		<moving>0.177</moving>
+		<still>0.296</still>
 		<firePenalty>0.444</firePenalty>
 	</invisibility>
 	<repairCost>0</repairCost>

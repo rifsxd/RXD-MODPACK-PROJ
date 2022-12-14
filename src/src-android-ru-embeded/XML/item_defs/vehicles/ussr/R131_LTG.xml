@@ -405,7 +405,7 @@
 					<extraPitchLimits>
 						<back>-20 1 20</back>
 					</extraPitchLimits>
-					<effects>shot_main</effects>
+					<effects>wshot_main</effects>
 					<shots>
 						<_85mm_UBR-365KBM>
 							<shell>shared<price>0</price>

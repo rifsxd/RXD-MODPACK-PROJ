@@ -20,6 +20,7 @@
 	<provisionSlots>3</provisionSlots>
 	<optDevicePreset>drumGunVehiclePreset</optDevicePreset>
 	<enrichmentBoost>1.5125</enrichmentBoost>
+	<turretBlowEnabled>true</turretBlowEnabled>
 	<effects>
 		<collision/>
 		<damagedStateGroup>large</damagedStateGroup>
@@ -56,26 +57,28 @@
 			<nodes>HP_Track_Exhaus_1 HP_Track_Exhaus_2</nodes>
 		</exhaust>
 		<turretPositions>
-			<turret>0.000000 0.653538 0.156903</turret>
+			<turret>0.000000 1.628112 0.346900</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/french/F10_AMX_50B/collision/Hull.model</collisionModel>
 		</hitTester>
 		<armor>
-			<armor_1>230</armor_1>
-			<armor_2>100</armor_2>
+			<armor_1>254</armor_1>
+			<armor_2>140</armor_2>
 			<armor_3>30</armor_3>
 			<armor_4>30</armor_4>
-			<armor_5>170</armor_5>
-			<armor_6>80</armor_6>
+			<armor_5>180</armor_5>
+			<armor_6>100</armor_6>
 			<armor_7>50</armor_7>
 			<armor_8>90</armor_8>
 			<armor_9>30</armor_9>
 			<armor_10>20</armor_10>
 			<armor_11>20</armor_11>
-			<armor_12>0</armor_12>
+			<armor_12>10</armor_12>
 			<armor_13>100</armor_13>
 			<armor_14>100</armor_14>
+			<armor_15>20</armor_15>
+			<armor_16>20</armor_16>
 		</armor>
 		<primaryArmor>armor_5 armor_3 armor_4</primaryArmor>
 		<weight>29000</weight>
@@ -225,7 +228,7 @@
 			</effects>
 			<soundPC>/vehicles/tanks_pc/treads/treads_3</soundPC>
 			<soundNPC>/vehicles/tanks_npc/treads/treads_3</soundNPC>
-			<hullPosition>0.000000 0.970000 0.000000</hullPosition>
+			<hullPosition>0.000000 0.000000 0.000000</hullPosition>
 			<hitTester>
 				<collisionModel>vehicles/french/F10_AMX_50B/collision/Chassis.model</collisionModel>
 			</hitTester>
@@ -433,13 +436,16 @@
 			<hitTester>
 				<collisionModel>vehicles/french/F10_AMX_50B/collision/Turret_01.model</collisionModel>
 			</hitTester>
-			<gunPosition>0.000000 0.754959 -0.217616</gunPosition>
+			<gunPosition>0.000000 0.736675 0.008137</gunPosition>
 			<armor>
 				<armor_1>140</armor_1>
 				<armor_3>50</armor_3>
 				<armor_4>30</armor_4>
 				<armor_5>0</armor_5>
 				<armor_6>20</armor_6>
+				<armor_2>20</armor_2>
+				<armor_8>20</armor_8>
+				<armor_11>20</armor_11>
 			</armor>
 			<primaryArmor>armor_1 armor_3 armor_4</primaryArmor>
 			<weight>17500</weight>
@@ -459,7 +465,7 @@
 			<guns>
 				<_120mm_SA_46>shared<pitchLimits>-12 10</pitchLimits>
 					<extraPitchLimits>
-						<back>-17 8 15</back>
+						<back>-12 7 15</back>
 					</extraPitchLimits>
 					<maxAmmo>56</maxAmmo>
 					<models>
@@ -471,7 +477,7 @@
 						<collisionModel>vehicles/french/F10_AMX_50B/collision/Gun_01.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>150</armor_1>
+						<armor_1>140</armor_1>
 						<armor_2>80</armor_2>
 						<armor_3>50</armor_3>
 						<armor_4>20</armor_4>
@@ -486,6 +492,7 @@
 						</armor_11>
 						<armor_12>100</armor_12>
 						<armor_13>80</armor_13>
+						<armor_14>20</armor_14>
 						<armor_16>20</armor_16>
 						<gun>50</gun>
 					</armor>
@@ -577,5 +584,4 @@
 	<radios>
 		<SCR_619>shared</SCR_619>
 	</radios>
-	<turretBlowEnabled>true</turretBlowEnabled>
 </root>

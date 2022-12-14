@@ -257,7 +257,7 @@
 				<repairCost>0</repairCost>
 				</surveyingDeviceHealth>
 			<guns>
-				<_75mm_StuK42_L70A>shared<effects>shot_medium</effects>
+				<_75mm_StuK42_L70A>shared<effects>shot_main</effects>
 					<maxAmmo>60</maxAmmo>
 					<models>
 						<undamaged>vehicles/german/G48_E-25/normal/lod0/Gun_01.model</undamaged>

@@ -1,5 +1,5 @@
 Header:
-    version: 150
+    version: 151
 ImportedPackages:
 - "~res:/UI/Screens/Common.yaml"
 - "~res:/UI/Screens/Battle/HotKey.yaml"

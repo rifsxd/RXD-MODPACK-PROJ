@@ -1,4 +1,4 @@
-music:
+music_play:
     desert_train: "RXD_Desert_Train_Intro"
     desert_train_02: "RXD_Desert_Train_Intro"
     desert_train_03: "RXD_Desert_Train_Intro"
@@ -55,6 +55,12 @@ music:
     aftershot_draw: "Music_aftershot_draw"
     aftershot_defeat: "Music_aftershot_defeat"
     aftershot_bought_module: "Music_aftershot_bought_module"
+    music_hangar: "play_music_hng_ev_ny_2023"
+music_stop:
+    group_music: "stop_group_music"
+    group_music_aftershot: "stop_group_music_aftershot"
+    group_music_hangar: "stop_group_music_hangar"
+    group_music_prebattle: "stop_group_music_prebattle"
 ambient:
     desert_train: "RXD_Desert_Train_Battle"
     desert_train_02: "RXD_Desert_Train_Battle"

@@ -45,6 +45,21 @@
 		<volumeFactor>1</volumeFactor>
 	</horns>
 	<hull>
+		<blitz>
+			<armorScale>0.0183 0.0183 0.0183</armorScale>
+			<pushNormalsScale/>
+			<averageThickness>
+				<turret_01>134.527206</turret_01>
+			</averageThickness>
+			<blitzPartName>hull</blitzPartName>
+			<bbox>
+				<min>-1.307973 -3.450333 0.381214</min>
+				<max>1.291919 3.320295 1.641785</max>
+			</bbox>
+			<points>
+				<normal>0.000963 0.000083 -0.000120</normal>
+			</points>
+		</blitz>
 		<models>
 			<undamaged>vehicles/russian/R73_KV4/normal/lod0/Hull.model</undamaged>
 			<destroyed>vehicles/russian/R73_KV4/normal/lod0/Hull.model</destroyed>
@@ -392,8 +407,8 @@
 						</armor_5>
 						<gun>40</gun>
 					</armor>
-					<shotDispersionRadius>0.45</shotDispersionRadius>
-					<reloadTime>10.0235769619401</reloadTime>
+					<shotDispersionRadius>0.41</shotDispersionRadius>
+					<reloadTime>9.5</reloadTime>
 					<aimingTime>3.4</aimingTime>
 					<invisibilityFactorAtShot>0.22</invisibilityFactorAtShot>
 					<turretYawLimits>-180 180</turretYawLimits>
@@ -445,8 +460,8 @@
 						</armor_5>
 						<gun>50</gun>
 					</armor>
-					<shotDispersionRadius>0.46</shotDispersionRadius>
-					<reloadTime>15.1722358405367</reloadTime>
+					<shotDispersionRadius>0.43</shotDispersionRadius>
+					<reloadTime>14.3</reloadTime>
 					<aimingTime>3.4</aimingTime>
 					<invisibilityFactorAtShot>0.19</invisibilityFactorAtShot>
 					<turretYawLimits>-180 180</turretYawLimits>
@@ -502,8 +517,8 @@
 						</armor_5>
 						<gun>50</gun>
 					</armor>
-					<shotDispersionRadius>0.46</shotDispersionRadius>
-					<reloadTime>12.6820466554969</reloadTime>
+					<shotDispersionRadius>0.42</shotDispersionRadius>
+					<reloadTime>12.4</reloadTime>
 					<aimingTime>3.4</aimingTime>
 					<invisibilityFactorAtShot>0.19</invisibilityFactorAtShot>
 					<turretYawLimits>-180 180</turretYawLimits>
@@ -680,8 +695,8 @@
 						</armor_5>
 						<gun>40</gun>
 					</armor>
-					<shotDispersionRadius>0.45</shotDispersionRadius>
-					<reloadTime>9.6969696969697</reloadTime>
+					<shotDispersionRadius>0.4</shotDispersionRadius>
+					<reloadTime>9.2</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.12</turretRotation>
 						<afterShot>4</afterShot>
@@ -729,8 +744,8 @@
 						</armor_5>
 						<gun>50</gun>
 					</armor>
-					<shotDispersionRadius>0.46</shotDispersionRadius>
-					<reloadTime>14.8606811145511</reloadTime>
+					<shotDispersionRadius>0.42</shotDispersionRadius>
+					<reloadTime>14.1</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.14</turretRotation>
 						<afterShot>4</afterShot>
@@ -778,8 +793,8 @@
 						</armor_5>
 						<gun>50</gun>
 					</armor>
-					<shotDispersionRadius>0.46</shotDispersionRadius>
-					<reloadTime>12.4747626616264</reloadTime>
+					<shotDispersionRadius>0.41</shotDispersionRadius>
+					<reloadTime>12</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.14</turretRotation>
 						<afterShot>4</afterShot>

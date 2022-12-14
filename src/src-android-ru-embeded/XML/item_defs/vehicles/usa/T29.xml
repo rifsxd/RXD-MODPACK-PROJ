@@ -595,7 +595,7 @@
 						</_90mm_HE_M71>
 					</shots>
 				</_90mm_Gun_M3>
-				<_105mm_Gun_T5E1>shared<effects>shot_main</effects>
+				<_105mm_Gun_T5E1>shared<effects>shot_large</effects>
 					<maxAmmo>63</maxAmmo>
 					<reloadTime>10.5</reloadTime>
 					<pitchLimits>-15 10</pitchLimits>

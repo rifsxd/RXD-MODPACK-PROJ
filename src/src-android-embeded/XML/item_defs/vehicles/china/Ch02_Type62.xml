@@ -266,7 +266,7 @@
 						<back>-20 1 15</back>
 					</extraPitchLimits>
 					<pitchLimits>-20 7</pitchLimits>
-					<shotDispersionRadius>0.37</shotDispersionRadius>
+					<shotDispersionRadius>0.36</shotDispersionRadius>
 					<reloadTime>5.7</reloadTime>
 					<aimingTime>2.1</aimingTime>
 					<shotDispersionFactors>

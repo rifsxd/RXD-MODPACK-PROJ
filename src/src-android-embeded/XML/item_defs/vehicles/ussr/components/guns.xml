@@ -122,6 +122,7 @@
 		<_107mm_9S1>1038</_107mm_9S1>
 		<_122-mm_D-25T_with_wedges_shutter_E>1039</_122-mm_D-25T_with_wedges_shutter_E>
 		<_100mm_D54_M1>1040</_100mm_D54_M1>
+		<_122mm_M62-T2M1>1041</_122mm_M62-T2M1>
 		<_85mm_D5T-85BML>1042</_85mm_D5T-85BML>
 	</ids>
 	<shared>
@@ -6524,6 +6525,62 @@
 				</_100mm_3UOF10>
 			</shots>
 		</_100mm_D54_M1>
+		<_122mm_M62-T2M1>
+			<userString>#ussr_vehicles:_122mm_M62-T2M1</userString>
+			<shortUserString>#ussr_vehicles:_122mm_M62-T2M1_short</shortUserString>
+			<description>#ussr_vehicles:_122mm_M62-T2M1_descr</description>
+			<tags/>
+			<level>10</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.24</amplitude>
+				<backoffTime>0.2</backoffTime>
+				<returnTime>0.6</returnTime>
+			</recoil>
+			<effects>wpn_shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>26.25</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>3084</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.08</turretRotation>
+				<afterShot>4</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_122mm_BR-472>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1067</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>250 235</piercingPower>
+				</_122mm_BR-472>
+				<_122mm_BK-9>
+					<defaultPortion>0</defaultPortion>
+					<speed>981</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>340 340</piercingPower>
+				</_122mm_BK-9>
+				<_122mm_UOF-472M1>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>870</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_122mm_UOF-472M1>
+			</shots>
+		</_122mm_M62-T2M1>
 		<_85mm_D5T-85BML>
 			<userString>#ussr_vehicles:85mm_D5T-85BML</userString>
 			<description>#ussr_vehicles:85mm_D5T-85BML</description>

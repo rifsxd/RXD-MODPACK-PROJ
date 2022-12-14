@@ -273,7 +273,7 @@
 					</armor>
 					<shotDispersionRadius>0.34</shotDispersionRadius>
 					<aimingTime>2.1</aimingTime>
-					<reloadTime>8.5</reloadTime>
+					<reloadTime>8.9</reloadTime>
 					<shotDispersionFactors>
 						<turretRotation>0.1</turretRotation>
 						<afterShot>4</afterShot>
