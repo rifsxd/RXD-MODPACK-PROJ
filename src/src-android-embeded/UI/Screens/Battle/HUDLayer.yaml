@@ -1491,12 +1491,17 @@ Prototypes:
                         Background:
                             spriteModification: ["FLIP_VERTICAL"]
         -   class: "UIControl"
-            name: "HellgamesPlaceholder"
-            size: [0.000000, 0.000000]
+            name: "GameModeAdditionalUIContainer"
             input: false
             components:
-                UIAttachLayoutMasterComponent:
-                    attachId: "hellgamesPLaceholderID"
+                Anchor:
+                    leftAnchorEnabled: true
+                LinearLayout:
+                    orientation: "TopDown"
+                    spacing: 4.000000
+                SizePolicy:
+                    horizontalPolicy: "PercentOfMaxChild"
+                    verticalPolicy: "PercentOfChildrenSum"
     -   class: "UIControl"
         name: "EnemyTeamPanelContainer"
         input: false
@@ -1791,8 +1796,6 @@ Prototypes:
         input: false
         components:
             Background: {}
-            UIAttachLayoutMasterComponent:
-                attachId: "shellIcon"
         children:
         -   class: "UIControl"
             customClass: "UIShellItemControl"
@@ -1843,7 +1846,7 @@ Prototypes:
                         verticalPolicy: "PercentOfParent"
                         verticalValue: 38.000000
                     UIAttachLayoutMasterComponent:
-                        attachId: "shellIcon"
+                        attachId: "AmmoCurrentItemIcon"
             -   class: "UIControl"
                 name: "altIcon"
                 position: [31.500000, 31.500000]
@@ -2252,44 +2255,3 @@ Prototypes:
                 SizePolicy:
                     horizontalPolicy: "PercentOfMaxChild"
                     verticalPolicy: "PercentOfMaxChild"
-    -   class: "UIControl"
-        name: "GameModeAdditionalUILayoutProtector"
-        input: false
-        components:
-            Anchor:
-                leftAnchorEnabled: true
-                rightAnchorEnabled: true
-                topAnchorEnabled: true
-                bottomAnchorEnabled: true
-        children:
-        -   class: "UIControl"
-            name: "GameModeAdditionalUIContainer"
-            input: false
-            components:
-                Anchor:
-                    leftAnchorEnabled: true
-                LinearLayout:
-                    orientation: "TopDown"
-                    spacing: 4.000000
-                SizePolicy:
-                    horizontalPolicy: "PercentOfMaxChild"
-                    verticalPolicy: "PercentOfChildrenSum"
-                UIAttachLayoutSlaveComponent:
-                    attachId: "hellgamesPLaceholderID"
-                    masterAlign: "TopLeft"
-                    slaveAlign: "TopLeft"
-            children:
-            -   class: "UIControl"
-                name: "BattlePointsContainer"
-                input: false
-                components:
-                    SizePolicy:
-                        horizontalPolicy: "PercentOfMaxChild"
-                        verticalPolicy: "PercentOfMaxChild"
-            -   class: "UIControl"
-                name: "RespawnAmountContainer"
-                input: false
-                components:
-                    SizePolicy:
-                        horizontalPolicy: "PercentOfMaxChild"
-                        verticalPolicy: "PercentOfMaxChild"
