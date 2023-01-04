@@ -1,9 +1,7 @@
 // RXD - Patch - RXD - MODPACK // Very Important To Install If Using RXD - MODPACK //
 
-| Current.Version.Date --> 21.12.22
+| Current.Version.Date --> 04.01.23
 
-|| Needs to be installed in the World of Tanks Blitz Game Folder /Data/ (PC) or /Packs/ (ANDROID)
+|| Mobile - "packs" folder needs to be installed in ( Android/data/net.wargaming.wot.blitz/files ) or ( Android/data/com.tanksblitz/files ) - replace existing files if asked.
 
-|| APK to be installed through Android Package Installer
-
-|| EXE needs to be placed and replaced in World of Tanks Blitz game folder
+|| PC - "packs" folder needs to be installed in ( This PC/Documents ) - replace existing files if asked.
