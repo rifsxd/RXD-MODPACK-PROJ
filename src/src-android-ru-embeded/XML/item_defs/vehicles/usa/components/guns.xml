@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>1051</nextAvailableId>
+	<nextAvailableId>1052</nextAvailableId>
 	<ids>
 		<_75mm_Gun_M3_L37>0</_75mm_Gun_M3_L37>
 		<_20mm_Hispano_Suiza_Birgikt_gun>1</_20mm_Hispano_Suiza_Birgikt_gun>
@@ -108,6 +108,7 @@
 		<_90mm_AT_Gun_M3_BP>1045</_90mm_AT_Gun_M3_BP>
 		<_105mm_T254A>1046</_105mm_T254A>
 		<_76mm_Gun_T94_BP>1047</_76mm_Gun_T94_BP>
+		<_76mm_Gun_M1A2_BP>1051</_76mm_Gun_M1A2_BP>
 	</ids>
 	<shared>
 		<_20mm_Hispano_Suiza_Birgikt_gun>
@@ -5787,6 +5788,62 @@
 				</_76mm_HE_M352BP>
 			</shots>
 		</_76mm_Gun_T94_BP>
+		<_76mm_Gun_M1A2_BP>
+			<userString>#usa_vehicles:_76mm_Gun_M1A2_BP</userString>
+			<shortUserString>#usa_vehicles:_76mm_Gun_M1A2_BP_short</shortUserString>
+			<description>#usa_vehicles:_76mm_Gun_M1A2_BP</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.36</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<pitchLimits>-25 10</pitchLimits>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<rotationSpeed>40.25</rotationSpeed>
+			<reloadTime>3.25714285714286</reloadTime>
+			<maxAmmo>75</maxAmmo>
+			<aimingTime>2.28571428571429</aimingTime>
+			<weight>1590</weight>
+			<maxHealth>130</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.4</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.12</turretRotation>
+				<afterShot>3.5</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_76mm_AP_M79_BP>
+					<defaultPortion>0.85</defaultPortion>
+					<speed>792</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>155 133</piercingPower>
+				</_76mm_AP_M79_BP>
+				<_76mm_HVAP_M93_BP>
+					<defaultPortion>0.0</defaultPortion>
+					<speed>990</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>218 195</piercingPower>
+				</_76mm_HVAP_M93_BP>
+				<_76mm_HE_M42A1_BP>
+					<defaultPortion>0.15</defaultPortion>
+					<speed>792</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>42 42</piercingPower>
+				</_76mm_HE_M42A1_BP>
+			</shots>
+		</_76mm_Gun_M1A2_BP>
 	</shared>
 </root>
 
