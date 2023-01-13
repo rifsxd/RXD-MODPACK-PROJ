@@ -94,11 +94,83 @@ StyleSheets:
 -   selectors:
     - ".health-font"
     properties:
-        text-fontName: "WarHeliosCondC_Bold_13"
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 13.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".health-font.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.750000
+        text-descendScale: 0.350000
+-   selectors:
+    - ".health-font.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".health-font.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".health-font.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 15.000000
+-   selectors:
+    - ".health-font.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 11.000000
+-   selectors:
+    - ".health-font.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".health-font.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
 -   selectors:
     - ".health-font.Phone"
     properties:
-        text-fontName: "WarHeliosCondC_Bold_19"
+        text-fontPath: "~res:/Fonts/WarHeliosCondCBold.ttf"
+        text-fontSize: 19.000000
+        text-verticalSpacing: 0.000000
+        text-ascendScale: 1.000000
+        text-descendScale: 1.000000
+-   selectors:
+    - ".health-font.Phone.ar"
+    properties:
+        text-fontPath: "~res:/Fonts/BadiyaLT-Bold.ttf"
+        text-ascendScale: 0.650000
+        text-descendScale: 0.650000
+-   selectors:
+    - ".health-font.Phone.ja"
+    properties:
+        text-fontPath: "~res:/Fonts/IwaGGoPro-Bd.otf"
+-   selectors:
+    - ".health-font.Phone.ko"
+    properties:
+        text-fontPath: "~res:/Fonts/CoreSans.ttf"
+-   selectors:
+    - ".health-font.Phone.th"
+    properties:
+        text-fontPath: "~res:/Fonts/SirichanaLT-Bold.ttf"
+        text-fontSize: 22.000000
+-   selectors:
+    - ".health-font.Phone.vi"
+    properties:
+        text-fontPath: "~res:/Fonts/cinecav_x_ui_bold.ttf"
+        text-fontSize: 17.000000
+-   selectors:
+    - ".health-font.Phone.zh-Hans"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-SC-W6.otf"
+-   selectors:
+    - ".health-font.Phone.zh-Hant"
+    properties:
+        text-fontPath: "~res:/Fonts/XinGothic-TC-W6.otf"
 -   selectors:
     - ".damaged-module-scaling"
     properties:

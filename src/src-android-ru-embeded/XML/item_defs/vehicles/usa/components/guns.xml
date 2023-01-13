@@ -1,5 +1,5 @@
 <root>
-	<nextAvailableId>1052</nextAvailableId>
+	<nextAvailableId>1053</nextAvailableId>
 	<ids>
 		<_75mm_Gun_M3_L37>0</_75mm_Gun_M3_L37>
 		<_20mm_Hispano_Suiza_Birgikt_gun>1</_20mm_Hispano_Suiza_Birgikt_gun>
@@ -5788,6 +5788,116 @@
 				</_76mm_HE_M352BP>
 			</shots>
 		</_76mm_Gun_T94_BP>
+		<_120mm_2B_British_Gun_M1>
+			<userString>#usa_vehicles:_120mm_2B_British_Gun_M1</userString>
+			<shortUserString>#usa_vehicles:_120mm_2B_British_Gun_M1_short</shortUserString>
+			<description>#usa_vehicles:_120mm_2B_British_Gun_M1_descr</description>
+			<tags/>
+			<level>9</level>
+			<price>0</price>
+			<impulse>0.68</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.24</amplitude>
+				<recoilEffect>large</recoilEffect>
+			</recoil>
+			<effects>shot_large</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>40</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>30</maxAmmo>
+			<aimingTime>1.0</aimingTime>
+			<weight>1280</weight>
+			<maxHealth>210</maxHealth>
+			<maxRegenHealth>105</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.1</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.1</turretRotation>
+				<afterShot>1</afterShot>
+				<whileGunDamaged>1.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_120mm_XM152>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>1084</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>249 225</piercingPower>
+				</_120mm_XM152>
+				<_120mm_XM252>
+					<defaultPortion>0</defaultPortion>
+					<speed>876</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>330 330</piercingPower>
+				</_120mm_XM252>
+				<_120mm_XM31>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>736</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>60 60</piercingPower>
+				</_120mm_XM31>
+			</shots>
+		</_120mm_2B_British_Gun_M1>
+		<_90mm_GUN_M41_P>
+			<userString>#usa_vehicles:_90mm_GUN_M41_P</userString>
+			<shortUserString>#usa_vehicles:_90mm_GUN_M41_P_short</shortUserString>
+			<description>#usa_vehicles:_90mm_GUN_M41_P_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.48</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.36</amplitude>
+				<recoilEffect>medium</recoilEffect>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>40</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>50</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>1280</weight>
+			<maxHealth>150</maxHealth>
+			<maxRegenHealth>75</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.37</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.12</turretRotation>
+				<afterShot>3.5</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_90mm_APM77>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>932</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>160 140</piercingPower>
+				</_90mm_APM77>
+				<_90mm_APCR_M304>
+					<defaultPortion>0</defaultPortion>
+					<speed>1080</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>182 162</piercingPower>
+				</_90mm_APCR_M304>
+				<_90mm_HE_M71M1>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>836</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>30 30</piercingPower>
+				</_90mm_HE_M71M1>
+			</shots>
+		</_90mm_GUN_M41_P>
 		<_76mm_Gun_M1A2_BP>
 			<userString>#usa_vehicles:_76mm_Gun_M1A2_BP</userString>
 			<shortUserString>#usa_vehicles:_76mm_Gun_M1A2_BP_short</shortUserString>

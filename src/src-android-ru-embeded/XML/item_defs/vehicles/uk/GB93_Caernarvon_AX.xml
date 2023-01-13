@@ -209,7 +209,7 @@
 				<exploded>vehicles/british/GB93_Caernarvon_AX/crash/lod0/Turret_01.model</exploded>
 			</models>
 			<yawLimits>-180 180</yawLimits>
-			<gunPosition>0.003285 0.346665 1.063312</gunPosition>
+			<gunPosition>0.003285 0.388663 1.063312</gunPosition>
 			<armor>
 				<armor_1>254</armor_1>
 				<armor_2>203</armor_2>
@@ -268,7 +268,6 @@
 					<extraPitchLimits>
 						<back>-20 5 40</back>
 					</extraPitchLimits>
-					<effects>shot_main</effects>
 					<shots>
 						<_20pdr_AP_Mk1>
 							<shell>shared<price>0</price>

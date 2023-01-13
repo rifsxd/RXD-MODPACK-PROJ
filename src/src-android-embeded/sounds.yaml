@@ -160,7 +160,7 @@ sound_zero_pack_common:
     BASE_CAPTURE_ALLY: "RXD_GUI_notifications_FX_base_capture_ally"
     BASE_CAPTURE_ENEMY: "RXD_GUI_notifications_FX_base_capture_enemy"
     BASE_CAPTURE_FINISH: "RXD_GUI_notifications_FX_base_capture_finish"
-    GUN_RELOAD: "GUI/notifications_FX/gun_reloaded"
+    GUN_RELOAD: "RXD_GUI_notifications_FX_gun_reloaded"
     BattleHintsOn: "play_tut_2021_ui_battle_hints_on"
     BattleHintsOff: "play_tut_2021_ui_battle_hints_off"
 sounds_general:

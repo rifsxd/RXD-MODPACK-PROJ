@@ -45,6 +45,7 @@
 		<_120mm_TG>52</_120mm_TG>
 		<_130mm_59-130M>53</_130mm_59-130M>
 		<_105mm_L7A3C>56</_105mm_L7A3C>
+		<_76mm_54-76T_BP>64</_76mm_54-76T_BP>
 	</ids>
 	<shared>
 		<_37mm_APX_SA18>
@@ -2359,5 +2360,61 @@
 				</_105mm_HEP-M393A1>
 			</shots>
 		</_105mm_L7A3C>
+		<_76mm_54-76T_BP>
+			<userString>#china_vehicles:_76mm_54-76T_BP</userString>
+			<shortUserString>#china_vehicles:_76mm_54-76T_BP_short</shortUserString>
+			<description>#china_vehicles:_76mm_54-76T_BP_descr</description>
+			<tags/>
+			<level>6</level>
+			<price>0</price>
+			<impulse>0.44</impulse>
+			<recoil>
+				<lodDist>MEDIUM</lodDist>
+				<amplitude>0.4</amplitude>
+				<backoffTime>0.1</backoffTime>
+				<returnTime>0.4</returnTime>
+			</recoil>
+			<effects>shot_main</effects>
+			<turretYawLimits>-180 180</turretYawLimits>
+			<pitchLimits>-20 10</pitchLimits>
+			<rotationSpeed>40</rotationSpeed>
+			<reloadTime>7.1</reloadTime>
+			<maxAmmo>40</maxAmmo>
+			<aimingTime>1.7</aimingTime>
+			<weight>550</weight>
+			<maxHealth>150</maxHealth>
+			<maxRegenHealth>65</maxRegenHealth>
+			<repairCost>0</repairCost>
+			<invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+			<shotDispersionRadius>0.39</shotDispersionRadius>
+			<shotDispersionFactors>
+				<turretRotation>0.16</turretRotation>
+				<afterShot>4.0</afterShot>
+				<whileGunDamaged>2.0</whileGunDamaged>
+			</shotDispersionFactors>
+			<shots>
+				<_76mm_Chuan_Dun-350BP>
+					<defaultPortion>0.8</defaultPortion>
+					<speed>700</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>138 120</piercingPower>
+				</_76mm_Chuan_Dun-350BP>
+				<_76mm_Chuan_jian-350BP>
+					<defaultPortion>0</defaultPortion>
+					<speed>875</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>194 174</piercingPower>
+				</_76mm_Chuan_jian-350BP>
+				<_76mm_Sha_Bao-350BP>
+					<defaultPortion>0.2</defaultPortion>
+					<speed>820</speed>
+					<gravity>9.81</gravity>
+					<maxDistance>720</maxDistance>
+					<piercingPower>25 25</piercingPower>
+				</_76mm_Sha_Bao-350BP>
+			</shots>
+		</_76mm_54-76T_BP>
 	</shared>
 </root>

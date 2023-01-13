@@ -59,7 +59,7 @@
 			<rates>5.0 10.0 25.0</rates>
 		</exhaust>
 		<turretPositions>
-			<turret>0.000000 0.5474 0.53</turret>
+			<turret>0.000000 1.542377 0.536835</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/german/G89_Leopard1/collision/Hull.model</collisionModel>
@@ -183,7 +183,7 @@
 				<mud>largeTankMud</mud>
 			</effects>
 			<sound>/vehicles/tanks/treads/treads_2</sound>
-			<hullPosition>0.000000 1 0.000000</hullPosition>
+			<hullPosition>0.000000 0.000000 0.000000</hullPosition>
 			<hitTester>
 				<collisionModel>vehicles/german/G89_Leopard1/collision/Chassis.model</collisionModel>
 			</hitTester>
@@ -226,7 +226,7 @@
 			<hitTester>
 				<collisionModel>vehicles/german/G89_Leopard1/collision/Turret_01.model</collisionModel>
 			</hitTester>
-			<gunPosition>0.000000 0.338949 1.03764</gunPosition>
+			<gunPosition>0.000000 0.357623 1.200075</gunPosition>
 			<armor>
 				<armor_1>52</armor_1>
 				<armor_2>52</armor_2>
@@ -242,7 +242,7 @@
 				</armor_11>
 				<armor_12>60</armor_12>
 				<armor_13>27</armor_13>
-				<armor_14>0</armor_14>
+				<armor_14>27</armor_14>
 				<armor_15>49</armor_15>
 				<armor_16>20</armor_16>
 			</armor>

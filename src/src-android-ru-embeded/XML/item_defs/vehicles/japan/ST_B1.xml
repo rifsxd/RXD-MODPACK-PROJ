@@ -59,7 +59,7 @@
 			<rates>5.0 10.0 25.0</rates>
 		</exhaust>
 		<turretPositions>
-			<turret>0.000000 0.446375 0.63197</turret>
+			<turret>0.000000 1.500800 0.632000</turret>
 		</turretPositions>
 		<hitTester>
 			<collisionModel>vehicles/japan/J16_ST_B1/collision/Hull.model</collisionModel>
@@ -75,11 +75,12 @@
 			<armor_8>75</armor_8>
 			<armor_9>80</armor_9>
 			<armor_10>25</armor_10>
-			<armor_11>0</armor_11>
-			<armor_12>50</armor_12>
-			<armor_13>50</armor_13>
-			<armor_14>35</armor_14>
+			<armor_11>80</armor_11>
+			<armor_12>75</armor_12>
+			<armor_13>80</armor_13>
+			<armor_14>80</armor_14>
 			<armor_15>12</armor_15>
+			<armor_16>12</armor_16>
 		</armor>
 		<primaryArmor>armor_6 armor_3 armor_4</primaryArmor>
 		<weight>11880</weight>
@@ -180,7 +181,7 @@
 				<mud>largeTankMud</mud>
 			</effects>
 			<sound>/vehicles/tanks/treads/treads_2</sound>
-			<hullPosition>0.000000 1.05446 0.000000</hullPosition>
+			<hullPosition>0.000000 0.000000 0.000000</hullPosition>
 			<hitTester>
 				<collisionModel>vehicles/japan/J16_ST_B1/collision/Chassis.model</collisionModel>
 			</hitTester>
@@ -222,9 +223,9 @@
 			<hitTester>
 				<collisionModel>vehicles/japan/J16_ST_B1/collision/Turret_01.model</collisionModel>
 			</hitTester>
-			<gunPosition>-0.000000 0.295119 1.01333</gunPosition>
+			<gunPosition>0.000000 0.295200 1.013300</gunPosition>
 			<armor>
-				<armor_1>145</armor_1>
+				<armor_1>175</armor_1>
 				<armor_2>132</armor_2>
 				<armor_3>67</armor_3>
 				<armor_4>37</armor_4>
@@ -285,7 +286,7 @@
 						<collisionModel>vehicles/japan/J16_ST_B1/collision/Gun_01.model</collisionModel>
 					</hitTester>
 					<armor>
-						<armor_1>132<vehicleDamageFactor>0.0</vehicleDamageFactor>
+						<armor_1>248<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_1>
 						<armor_2>50<vehicleDamageFactor>0.0</vehicleDamageFactor>
 						</armor_2>
