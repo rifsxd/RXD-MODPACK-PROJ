@@ -1,6 +1,6 @@
 GUN_RELOAD:
     rule : 0
-    category: "fx"
+    category: "voice"
 ENEMY_SIGHTED:
     rule : 0
     category: "fx"
