@@ -384,8 +384,8 @@
 			</sound>
 		</effects>
 		<blitz>
-			<soundPC>guns/tow/tow_pc</soundPC>
-			<soundNPC>guns/tow/tow_npc</soundNPC>
+			<soundPC>RXD_WoTB_Mod_gun_PC_tow</soundPC>
+			<soundNPC>RXD_WoTB_Mod_gun_NPC_tow</soundNPC>
 			<soundCannonade>guns/cannonade/cannonade_large</soundCannonade>
 			<effect>~res:/3d/FX/gun_effects/T49_Rocket_gun.sc2</effect>
 		</blitz>

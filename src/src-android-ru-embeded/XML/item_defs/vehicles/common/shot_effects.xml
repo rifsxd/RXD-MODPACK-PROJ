@@ -7613,7 +7613,7 @@
 			</effects>
 			<blitz>
 				<effect>~res:/3d/FX/hit_tank/armorHit_HE4.sc2</effect>
-				<soundPC>hits/hits_tank_pc/he/he_armor_pierce_tow</soundPC>
+				<soundPC>RXD_pc_hit_he_armor_pierce_large</soundPC>
 				<soundNPC>RXD_npc_hit_he_armor_pierce_large</soundNPC>
 			</blitz>
 		</armorHit>
@@ -7649,7 +7649,7 @@
 			</effects>
 			<blitz>
 				<effect>~res:/3d/FX/hit_tank/armorHit_HE4.sc2</effect>
-				<soundPC>hits/hits_tank_pc/he/he_critical_hit_tow</soundPC>
+				<soundPC>RXD_pc_hit_he_critical_hit_large</soundPC>
 				<soundNPC>RXD_npc_hit_he_critical_hit_large</soundNPC>
 			</blitz>
 		</armorCriticalHit>

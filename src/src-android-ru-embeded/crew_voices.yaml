@@ -34,8 +34,7 @@ tanks:
 # ----------------- #
 #---- Sabaton >--->
     "european:S13_Leo_NY": "rxd_sab"
-    "other:Strv_74A2": "rxd_sab"
-    "european:S25_EMIL_51": "rxd_sab"
+    "other:Strv_74A2": "rxd_sab_auto"
 #---- Sabaton <---<
 #---- Autoloader >------------------------------------------>
     "european:Cz08_T-25": "rxd_cs_auto"
@@ -48,7 +47,7 @@ tanks:
     "european:S16_Kranvagn": "rxd_sv_auto"
     "european:S17_EMIL_1952E2": "rxd_sv_auto"
     "european:S18_EMIL_1951E1": "rxd_sv_auto"
-    "european:S25_EMIL_51": "rxd_sv_auto"
+    "european:S25_EMIL_51": "rxd_sab_auto"
     "european:Cz14_Skoda_T-56": "rxd_cs_auto"
     "france:AMX_12t": "rxd_fr_auto"
     "france:AMX_13_75": "rxd_fr_auto"
@@ -77,4 +76,5 @@ tanks:
     "ussr:R115_IS-3_auto": "rxd_ru_auto"
     "japan:Chi_Ri": "rxd_jp_auto"
     "other:Oth20_M4FL10": "rxd_sab_auto"
+    "other:Oth34_PanzerMummy": "rxd_sab_auto"
 #---- Autoloader <------------------------------------------<
