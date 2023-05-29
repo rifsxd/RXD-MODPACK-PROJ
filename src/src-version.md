@@ -6,5 +6,5 @@ Source.Code.Patch.Version --> {
 								"WG.Client:3.5.1",
 								"MS.Store:NULL",
 								"RU.Android:3.5.1"
-								"Lesta.Client:3.5.1"
+								"Lesta.Client:4.0.0"
 							  }
