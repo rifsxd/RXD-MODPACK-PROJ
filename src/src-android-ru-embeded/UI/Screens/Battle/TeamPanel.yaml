@@ -1,5 +1,5 @@
 Header:
-    version: 149
+    version: 155
 ImportedPackages:
 - "~res:/UI/Screens/Lobby/Common/Resource/PlayerAvatar.yaml"
 - "~res:/UI/Screens/Common/PlayerNameWithTag.yaml"

@@ -1,5 +1,5 @@
 Header:
-    version: 151
+    version: 157
 ImportedPackages:
 - "~res:/UI/Screens/Common.yaml"
 - "~res:/UI/Screens/Battle/HotKey.yaml"
@@ -30,6 +30,8 @@ ImportedPackages:
 - "~res:/UI/Screens3/Battle/HUD/InternalTrack.yaml"
 - "~res:/UI/Screens/Battle/Notifications/BattleNotifications.yaml"
 - "~res:/UI/Screens/Battle/TeamPanel.yaml"
+- "~res:/UI/Screens3/Battle/FastCommands/Joystick.yaml"
+- "~res:/UI/Screens3/Battle/FastCommands/MarkerInCommandBar.yaml"
 StyleSheets:
 -   selectors:
     - "#CaptureState.neutral_current"
@@ -1322,9 +1324,6 @@ Prototypes:
                     verticalPolicy: "PercentOfParent"
                 UIInputEventComponent:
                     onTouchUpInside: "EXIT_TO_HANGAR"
-                StyleSheet:
-                    inheritsStylesFromParent: false
-                    styles: "~res:/UI/Screens/Common/StyledButton.yaml;~res:/UI/Styles/ButtonSoundStyles.yaml"
             children:
             -   path: "icon"
                 components:
@@ -1878,6 +1877,8 @@ Prototypes:
                 Background:
                     drawType: "DRAW_SCALE_TO_RECT"
                     sprite: "~res:/Gfx/UI/BattleScreenHUD/AmmoKeys"
+                StyleSheet:
+                    styles: "~res:/UI/Styles/Battle/BattleAmmoItem.yaml;~res:/UI/Styles/Lobby/Inventory/InventoryNormalStyles.yaml"
             children:
             -   class: "UIControl"
                 name: "overlay"
@@ -1933,22 +1934,33 @@ Prototypes:
                     Anchor:
                         hCenterAnchorEnabled: false
                         vCenterAnchorEnabled: false
-            -   class: "UIStaticText"
-                name: "countLabel"
-                size: [0.000000, 15.000000]
+            -   class: "UIControl"
+                name: "countLabelContainer"
                 input: false
-                classes: "text3-small-battle"
                 components:
-                    UITextComponent:
-                        shadowOffset: [1.000000, 1.000000]
-                        align: ["RIGHT", "VCENTER"]
                     Anchor:
                         rightAnchorEnabled: true
                         rightAnchor: 11.500000
                         bottomAnchorEnabled: true
                         bottomAnchor: 13.500000
                     SizePolicy:
-                        horizontalPolicy: "PercentOfContent"
+                        horizontalPolicy: "PercentOfMaxChild"
+                        verticalPolicy: "PercentOfMaxChild"
+                children:
+                -   class: "UIStaticText"
+                    name: "countLabel"
+                    input: false
+                    classes: "text3-small-battle"
+                    components:
+                        UITextComponent:
+                            shadowOffset: [1.000000, 1.000000]
+                            align: ["RIGHT", "VCENTER"]
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfContent"
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 15.000000
+                        StyleSheet:
+                            styles: "~res:/UI/Screens/Battle/Fonts.yaml"
             -   prototype: "HotKey/HotKey"
                 name: "HotKey"
                 visible: false
@@ -1993,12 +2005,6 @@ Prototypes:
                     vCenterAnchorEnabled: true
     -   prototype: "PostMortemInfo"
         name: "PostMortemInfo"
-        children:
-        -   path: "TableContainer/BackToGarageButton"
-            components:
-                UIAttachLayoutMasterComponent:
-                    attachId: "BackToGarage"
-            children: []
     -   class: "UIControl"
         name: "FpsHolder"
         size: [100.000000, 100.000000]
@@ -2327,3 +2333,55 @@ Prototypes:
                 SizePolicy:
                     horizontalPolicy: "PercentOfMaxChild"
                     verticalPolicy: "PercentOfMaxChild"
+    -   class: "UIControl"
+        name: "FastCommandsLayer"
+        input: false
+        refreshStylesOnInteract: false
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+            UIAnchorSafeAreaComponent:
+                bottomSafeInset: "REVERSE"
+        children:
+        -   prototype: "Joystick/JoystickButton"
+            name: "JoystickButton"
+            position: [851.000000, 521.000000]
+            children:
+            -   path: "Button"
+                position: [63.000000, 63.000000]
+                children: []
+        -   class: "UIControl"
+            name: "Circle"
+            input: false
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 400.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 400.000000
+            children:
+            -   prototype: "MarkerInCommandBar/MarkerInCommandBar"
+                name: "MarkerInCommandBar"
+                position: [250.000000, 250.000000]
+                pivot: [0.500000, 0.500000]
+                visible: false
+            -   class: "UIControl"
+                name: "DesktopInputArea"
+                size: [320.000000, 320.000000]
+                pivot: [0.500000, 0.500000]
+                visible: false
+                enabled: false
+                exclusiveInput: true
+                refreshStylesOnInteract: false
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    UIInputEventComponent:
+                        onTouchUpInside: "SendFastCommandFromCircle"
