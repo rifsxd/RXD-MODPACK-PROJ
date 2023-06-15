@@ -1,10 +1,10 @@
 Current.Blitz.Version --> 10.0.0
-Latest.Patch.Date --> 29.05.23
+Latest.Patch.Date --> 15.06.23
 Source.Code.Patch.Version --> {
-								"Android:3.5.1",
-								"Steam:4.0.0",
-								"WG.Client:3.5.1",
+								"Android:4.1.0",
+								"Steam:4.1.0",
+								"WG.Client:4.1.0",
 								"MS.Store:NULL",
-								"RU.Android:3.5.1"
-								"Lesta.Client:4.0.0"
+								"RU.Android:4.1.0"
+								"Lesta.Client:4.1.0"
 							  }
