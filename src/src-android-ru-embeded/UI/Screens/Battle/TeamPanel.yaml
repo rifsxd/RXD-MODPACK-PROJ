@@ -118,7 +118,7 @@ Prototypes:
                                 styles: "~res:/UI/Screens/Battle/Fonts.yaml"
         -   prototype: "PlayerNameWithTag/PlayerNameWithTag"
             name: "PlayerName"
-            classes: "name-with-tag player-name"
+            classes: "player-name"
             components:
                 Anchor:
                     vCenterAnchorEnabled: true
@@ -126,7 +126,7 @@ Prototypes:
                     horizontalPolicy: "PercentOfParent"
                     verticalPolicy: "PercentOfMaxChild"
                 StyleSheet:
-                    styles: "~res:/UI/Screens/Common/PlayerNameWithTag.yaml;~res:/UI/Screens/Battle/Styles/HUDLayerUITeamPanelStyles.yaml"
+                    styles: "~res:/UI/Styles/Clans/ClansStyles.yaml;~res:/UI/Screens/Common/Styles/PlayerNameWithTag.style.yaml;~res:/UI/Screens/Fonts.yaml;~res:/UI/Screens/Battle/Styles/HUDLayerUITeamPanelStyles.yaml"
             children:
             -   path: "spacer"
                 visible: true

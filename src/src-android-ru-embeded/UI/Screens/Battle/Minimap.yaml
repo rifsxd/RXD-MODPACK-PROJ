@@ -1,5 +1,5 @@
 Header:
-    version: 141
+    version: 155
 ImportedPackages:
 - "~res:/UI/Styles/Battle/BattleHUD.yaml"
 StyleSheets:
@@ -47,7 +47,7 @@ Prototypes:
     components:
         StyleSheet:
             inheritsStylesFromParent: true
-            styles: "~res:/UI/Screens/Battle/Minimap.yaml"
+            styles: "~res:/UI/Screens/Battle/Minimap.yaml;~res:/UI/Screens/Battle/Styles/ChatActionStyles.style.yaml"
 -   class: "UIControl"
     name: "FirstEncounterAnimation"
     size: [30.000000, 30.000000]
@@ -85,7 +85,7 @@ Prototypes:
             perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
         StyleSheet:
             inheritsStylesFromParent: true
-            styles: "~res:/UI/Screens/Battle/Minimap.yaml"
+            styles: "~res:/UI/Screens/Battle/Minimap.yaml;~res:/UI/Screens/Battle/Styles/ChatActionStyles.style.yaml"
 -   class: "UIControl"
     name: "PlayerVehicle"
     pivot: [0.500000, 0.500000]
