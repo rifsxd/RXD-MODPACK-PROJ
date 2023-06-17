@@ -48,6 +48,7 @@ Prototypes:
 -   class: "UIControl"
     name: "table-cell"
     size: [450.000000, 40.000000]
+    input: false
     classes: "table-cell"
     components:
         Background:
@@ -78,8 +79,12 @@ Prototypes:
             UIDataParamsComponent:
                 eventActions:
                 - ["AVATAR_IMAGE_LOADED", "AVATAR_IMAGE_LOADED", ""]
+        children:
+        -   path: "GradeTeamPanel"
+            input: false
     -   class: "UIControl"
         name: "spacer"
+        input: false
         components:
             SizePolicy:
                 horizontalPolicy: "FixedSize"
@@ -94,6 +99,8 @@ Prototypes:
             SizePolicy:
                 horizontalPolicy: "PercentOfParent"
                 verticalPolicy: "PercentOfMaxChild"
+            StyleSheet:
+                styles: "~res:/UI/Styles/Clans/ClansStyles.yaml;~res:/UI/Screens/Common/Styles/PlayerNameWithTag.style.yaml;~res:/UI/Screens/Fonts.yaml;~res:/UI/Screens/Battle/Styles/BattleLoadingScreenStyles.yaml"
         children:
         -   path: "name"
             classes: "fs-16 regular color=text-color-white"
@@ -111,6 +118,7 @@ Prototypes:
                     verticalPolicy: "PercentOfContent"
     -   class: "UIControl"
         name: "spacer"
+        input: false
         components:
             SizePolicy:
                 horizontalPolicy: "PercentOfParent"
@@ -118,6 +126,7 @@ Prototypes:
                 verticalPolicy: "PercentOfParent"
     -   class: "UIControl"
         name: "tank-name"
+        input: false
         classes: "fs-16 bold text-color-white"
         components:
             UITextComponent:
@@ -136,6 +145,7 @@ Prototypes:
     -   class: "UIControl"
         name: "spacer"
         visible: true
+        input: false
         components:
             SizePolicy:
                 horizontalPolicy: "PercentOfParent"
@@ -203,6 +213,7 @@ Prototypes:
     -   class: "UIControl"
         name: "spacer"
         visible: true
+        input: false
         components:
             SizePolicy:
                 horizontalPolicy: "FixedSize"
@@ -244,6 +255,7 @@ Prototypes:
 -   class: "UIControl"
     name: "table-cell-empty"
     size: [450.000000, 40.000000]
+    input: false
     classes: "table-cell-empty"
     components:
         Background:
@@ -255,6 +267,7 @@ Prototypes:
             verticalValue: 40.000000
 -   class: "UIControl"
     name: "battle-type"
+    input: false
     components:
         SizePolicy:
             horizontalPolicy: "Formula"
@@ -264,6 +277,7 @@ Prototypes:
     children:
     -   class: "UIControl"
         name: "bg"
+        input: false
         classes: "color-orange"
         components:
             Background:
@@ -275,6 +289,7 @@ Prototypes:
                 styles: "~res:/UI/Styles/ColorStyles.yaml"
     -   class: "UIControl"
         name: "value"
+        input: false
         classes: "fs-15 bold text-color-white"
         components:
             UITextComponent:
@@ -291,6 +306,7 @@ Prototypes:
 -   class: "UIControl"
     name: "battle-loading-screen"
     size: [960.000000, 640.000000]
+    input: false
     components:
         Anchor:
             leftAnchorEnabled: true
@@ -318,6 +334,7 @@ Prototypes:
                 verticalFormula: "(when parentSize.Y / parentSize.X > 0.75 -> parentSize.Y, parentSize.X * 0.75) / size.Y"
     -   class: "UIControl"
         name: "content"
+        input: false
         components:
             Anchor:
                 hCenterAnchorEnabled: true
@@ -331,6 +348,7 @@ Prototypes:
         children:
         -   class: "UIControl"
             name: "spacer"
+            input: false
             components:
                 SizePolicy:
                     horizontalPolicy: "PercentOfParent"
@@ -338,6 +356,7 @@ Prototypes:
                     verticalMin: 28.000000
         -   class: "UIControl"
             name: "header"
+            input: false
             components:
                 Anchor:
                     hCenterAnchorEnabled: true
@@ -361,6 +380,7 @@ Prototypes:
                         styles: "~res:/UI/Screens/Battle/Styles/BattleLoadingScreenStyles.yaml"
             -   class: "UIControl"
                 name: "battle-info-container"
+                input: false
                 components:
                     LinearLayout:
                         orientation: "TopDown"
@@ -370,6 +390,7 @@ Prototypes:
                 children:
                 -   class: "UIControl"
                     name: "map-name-container"
+                    input: false
                     components:
                         SizePolicy:
                             verticalPolicy: "PercentOfMaxChild"
@@ -378,6 +399,7 @@ Prototypes:
                     children:
                     -   class: "UIControl"
                         name: "map-name"
+                        input: false
                         classes: "header0 text-color-white"
                         components:
                             UITextComponent:
@@ -390,6 +412,8 @@ Prototypes:
                                 styles: "~res:/UI/Screens/Fonts.yaml"
                     -   class: "UIControl"
                         name: "mission"
+                        visible: false
+                        input: false
                         components:
                             Anchor:
                                 rightAnchorEnabled: true
@@ -404,6 +428,7 @@ Prototypes:
                         children:
                         -   class: "UIControl"
                             name: "bg"
+                            input: false
                             components:
                                 Background:
                                     drawType: "DRAW_FILL"
@@ -413,10 +438,10 @@ Prototypes:
                                     verticalPolicy: "PercentOfParent"
                         -   class: "UIControl"
                             name: "value"
+                            input: false
                             classes: "text2 text-color-white"
                             components:
-                                UITextComponent:
-                                    text: "#arenas:type/domination/description"
+                                UITextComponent: {}
                                 Anchor:
                                     hCenterAnchorEnabled: true
                                     vCenterAnchorEnabled: true
@@ -428,6 +453,7 @@ Prototypes:
                                     styles: "~res:/UI/Screens/Fonts.yaml"
                 -   class: "UIControl"
                     name: "battle-type-container"
+                    input: false
                     components:
                         Anchor:
                             leftAnchorEnabled: true
@@ -455,12 +481,14 @@ Prototypes:
                                     text: "gameplaymode/Supremacy"
         -   class: "UIControl"
             name: "spacer-2"
+            input: false
             components:
                 SizePolicy:
                     horizontalPolicy: "PercentOfParent"
                     verticalPolicy: "FixedSize"
         -   class: "UIControl"
             name: "table"
+            input: false
             components:
                 LinearLayout:
                     orientation: "TopDown"
@@ -471,6 +499,7 @@ Prototypes:
             children:
             -   class: "UIControl"
                 name: "table-header"
+                input: false
                 classes: "table-header"
                 components:
                     Background:
@@ -484,6 +513,7 @@ Prototypes:
                 children:
                 -   class: "UIControl"
                     name: "left-separator"
+                    input: false
                     components:
                         Background:
                             drawType: "DRAW_STRETCH_BOTH"
@@ -499,6 +529,7 @@ Prototypes:
                             verticalValue: 1.000000
                 -   class: "UIControl"
                     name: "right-separator"
+                    input: false
                     components:
                         Background:
                             drawType: "DRAW_STRETCH_BOTH"
@@ -513,6 +544,7 @@ Prototypes:
                             verticalValue: 1.000000
                 -   class: "UIControl"
                     name: "title-left"
+                    input: false
                     classes: "fs-15 bold text-color-white"
                     components:
                         UITextComponent:
@@ -531,6 +563,7 @@ Prototypes:
                             styles: "~res:/UI/Screens/Fonts.yaml"
                 -   class: "UIControl"
                     name: "title-right"
+                    input: false
                     classes: "fs-15 bold text-color-white"
                     components:
                         UITextComponent:
@@ -549,6 +582,7 @@ Prototypes:
                             styles: "~res:/UI/Screens/Fonts.yaml"
                 -   class: "UIControl"
                     name: "center"
+                    input: false
                     components:
                         Anchor:
                             hCenterAnchorEnabled: true
@@ -558,6 +592,7 @@ Prototypes:
                     children:
                     -   class: "UIControl"
                         name: "rating-container"
+                        input: false
                         components:
                             Anchor:
                                 hCenterAnchorEnabled: true
@@ -570,6 +605,7 @@ Prototypes:
                         children:
                         -   class: "UIControl"
                             name: "left-rating"
+                            input: false
                             components:
                                 SizePolicy:
                                     horizontalPolicy: "FixedSize"
@@ -578,6 +614,7 @@ Prototypes:
                             children:
                             -   class: "UIControl"
                                 name: "bg"
+                                input: false
                                 components:
                                     Background:
                                         drawType: "DRAW_ALIGNED"
@@ -588,6 +625,7 @@ Prototypes:
                                         verticalPolicy: "PercentOfParent"
                             -   class: "UIControl"
                                 name: "value"
+                                input: false
                                 classes: "fs-15 bold text-color-white"
                                 components:
                                     UITextComponent:
@@ -600,6 +638,7 @@ Prototypes:
                                         styles: "~res:/UI/Screens/Fonts.yaml"
                         -   class: "UIControl"
                             name: "right-rating"
+                            input: false
                             components:
                                 SizePolicy:
                                     horizontalPolicy: "FixedSize"
@@ -608,6 +647,7 @@ Prototypes:
                             children:
                             -   class: "UIControl"
                                 name: "bg"
+                                input: false
                                 components:
                                     Background:
                                         drawType: "DRAW_ALIGNED"
@@ -617,6 +657,7 @@ Prototypes:
                                         verticalPolicy: "PercentOfParent"
                             -   class: "UIControl"
                                 name: "value"
+                                input: false
                                 classes: "fs-15 bold text-color-white"
                                 components:
                                     UITextComponent:
@@ -637,6 +678,7 @@ Prototypes:
                                 topAnchorEnabled: true
             -   class: "UIControl"
                 name: "table-content"
+                input: false
                 components:
                     LinearLayout:
                         dynamicPadding: true
@@ -648,6 +690,7 @@ Prototypes:
                 children:
                 -   class: "UIControl"
                     name: "left"
+                    input: false
                     classes: "table-left"
                     components:
                         LinearLayout:
@@ -659,6 +702,7 @@ Prototypes:
                     children:
                     -   class: "UIControl"
                         name: "free-space"
+                        input: false
                         components:
                             ClipContent: {}
                             LinearLayout:
@@ -684,6 +728,7 @@ Prototypes:
                             name: "table-cell-empty_6"
                 -   class: "UIControl"
                     name: "right"
+                    input: false
                     classes: "table-right"
                     components:
                         LinearLayout:
@@ -695,6 +740,7 @@ Prototypes:
                     children:
                     -   class: "UIControl"
                         name: "free-space"
+                        input: false
                         components:
                             ClipContent: {}
                             LinearLayout:
@@ -720,6 +766,7 @@ Prototypes:
                             name: "table-cell-empty_11"
         -   class: "UIControl"
             name: "spacer"
+            input: false
             components:
                 SizePolicy:
                     horizontalPolicy: "PercentOfParent"
@@ -765,6 +812,7 @@ Prototypes:
                         horizontalMax: 700.000000
         -   class: "UIControl"
             name: "spacer"
+            input: false
             components:
                 SizePolicy:
                     horizontalPolicy: "PercentOfParent"
