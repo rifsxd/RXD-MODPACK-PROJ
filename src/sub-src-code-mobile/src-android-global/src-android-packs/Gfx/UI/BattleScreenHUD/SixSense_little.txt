@@ -1,0 +1,6 @@
+1
+rxd_SixSense.packed.webp
+41 41
+2
+1 1 13 19 13 13 0 frame0
+20 1 13 19 13 13 0 frame1
