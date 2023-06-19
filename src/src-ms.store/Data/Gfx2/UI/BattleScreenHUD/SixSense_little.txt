@@ -1,6 +1,0 @@
-1
-rxd_SixSense.packed.webp
-82 82
-2
-2 2 26 38 26 26 0 frame0
-40 2 26 38 26 26 0 frame1

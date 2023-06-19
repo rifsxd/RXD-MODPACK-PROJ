@@ -1,5 +1,0 @@
-1
-rxd_battle_type.packed.webp
-144 144
-1
-78 160 142 150 -4 -6 0

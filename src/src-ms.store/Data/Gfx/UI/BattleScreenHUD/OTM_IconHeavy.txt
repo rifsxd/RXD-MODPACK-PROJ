@@ -1,5 +1,0 @@
-1
-rxd_Tankicon.packed.webp
-40 40
-1
-0 90 40 40 0 0 0 frame0

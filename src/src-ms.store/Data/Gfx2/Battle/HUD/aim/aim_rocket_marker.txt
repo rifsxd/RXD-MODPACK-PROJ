@@ -1,5 +1,0 @@
-1
-rxd_aim_rocket_marker.packed.webp
-92 68
-1
-0 0 92 68 0 0 0 frame0

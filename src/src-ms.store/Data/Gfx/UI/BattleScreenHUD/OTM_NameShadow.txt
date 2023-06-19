@@ -1,5 +1,0 @@
-1
-rxd_nameshadow.packed.webp
-300 100
-1
-0 0 300 100 0 0 0 frame0

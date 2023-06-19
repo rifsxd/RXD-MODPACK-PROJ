@@ -1,8 +1,0 @@
-1
-rxd_Tankicon.packed.webp
-30 30
-4
-30 60 30 30 0 0 0 frame0
-60 60 30 30 0 0 0 frame1
-90 60 30 30 0 0 0 frame2
-0 60 30 30 0 0 0 frame3

@@ -1,0 +1,6 @@
+treadParameters:
+    forceManualWidth: true
+    manualWidth: 1.200000
+    forceManualSpace: false
+    manualSpace: 1.000000
+    texturePath: "~res:/3d/Tanks/Common/images/France_01_tread.tex"

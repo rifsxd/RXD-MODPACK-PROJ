@@ -1,5 +1,0 @@
-1
-RXD_MODS.packed.webp
-188 27
-1
-214 0 188 27 -1 0 0 frame0

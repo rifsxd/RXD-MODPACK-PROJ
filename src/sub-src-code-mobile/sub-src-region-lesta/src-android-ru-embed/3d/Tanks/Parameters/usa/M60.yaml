@@ -1,0 +1,109 @@
+resourcesPath:
+    smallIconPath: "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/usa-M60"
+    bigIconPath: "~res:/Gfx/UI/BigTankIcons/usa-M60"
+    blitzModelPath: "Tanks/USA/M60.sc2"
+    collisionMesh: "CollisionMeshes/usa-M60.sc2"
+    smokeEffectPath: "FX/exhausts/front.sc2"
+    fireEffectPathAlive: "FX/SmokeFire_tank_movement_new.sc2"
+    fireEffectPathDead: "FX/Fire_and_Smoke.sc2"
+    engineSoundPC: "tanks/pc/engine/usa/mt"
+    engineSoundNPC: "tanks/npc/engine/usa/mt"
+    chassisSoundPC: "tanks/pc/treads/mt"
+    chassisSoundNPC: "tanks/npc/treads/mt"
+textureTransform:
+    gun_01:
+        shear: [0.000000, 0.000000]
+        scale: [1.200000, 1.200000]
+        rotation: 90.000000
+        offset: [0.000000, 0.000000]
+        enabled: true
+    gun_01_mask:
+        shear: [0.000000, 0.000000]
+        scale: [1.200000, 1.200000]
+        rotation: 90.000000
+        offset: [0.000000, 0.000000]
+        enabled: true
+    hull:
+        shear: [0.000000, 0.000000]
+        scale: [1.200000, 1.200000]
+        rotation: 90.000000
+        offset: [0.000000, 0.000000]
+        enabled: true
+    turret_01:
+        shear: [0.000000, 0.000000]
+        scale: [1.200000, 1.200000]
+        rotation: -90.000000
+        offset: [0.000000, 0.000000]
+        enabled: true
+gunRecoil:
+    gun_01:
+        enabled: true
+        durationForward: 1.000000
+        durationBackward: 0.050000
+        distance: 0.221739
+maskSlice:
+    gun_01:
+        enabled: true
+        planePosition: [0.000394, 1.546664, -0.044871]
+        planeNormal: [0.000000, 1.000000, 0.000000]
+        planeAxis: [0.000000, 1.000000, 0.000000]
+        frustumConeBaseRadius: 0.200000
+        frustumConeAngleDegrees: 5.000000
+        planeSliceMode: 1
+        frustumConeSliceMode: 0
+markerPosition:
+    markerHeight: 3.576387
+hitMarks: {}
+suspension:
+    enabled: true
+    wheelsReactionSpeed: 1.100477
+    chunkPrototypeExtending: 0.100000
+    wheels: "AAAAACYNFj4xUhY+AQAAACYNFj4xUhY+AQAAACYNFj4xUhY+AQAAACYNFj4xUhY+AQAAACYNFj4xUhY+AQAAACYNFj4xUhY+AQAAACYNFj4xUhY+AAAAACYNFj4xUhY+AAAAACYNFj4xUhY+AAAAACYNFj4xUhY+AAAAACYNFj4xUhY+\f"
+    leftTrackChain: "m9QGwAAAAAABAAAArQ6evwAAAAABAAAANKvGvgAAAAABAAAAQNTfPgAAAAABAAAAJu2jPwAAAAABAAAA7C8JQAAAAAABAAAAWUUSQKebRDwBAAAANM4aQPyS0D0AAAAAhuojQPySUD4AAAAA2AYtQD1unD4AAAAAKSM2QPyS0D4AAAAAez8/QN5bAj8AAAAAKhZKQJ6nED8BAAAAtRpUQBILPj8BAAAArBtZQDT1gj8BAAAAyotVQN+onT8BAAAAn3ZKQAGjsz8BAAAAcgo/QDAnuT8BAAAA6bgtQMdmvz8AAAAALoUiQFZ0vz8AAAAAdFEXQOWBvz8AAAAAuR0MQHSPvz8AAAAA/ukAQASdvz8AAAAAhmzrP5Oqvz8AAAAANF/ZP12Xvz8BAAAAapXCPyeEvz8BAAAAJjaoP0DTvz8AAAAAsM6RP8/gvz8AAAAAds52P1/uvz8AAAAAjP9JP+77vz8AAAAAoDAdP30JwD8AAAAAaMPgPgwXwD8AAAAAjAVYPnMevz8BAAAAWPYKPchMvz8BAAAAYFiwvbk/wD8AAAAA8LOFvklNwD8AAAAAyFHfvthawD8AAAAAzHccv2dowD8AAAAAuEZJv/Z1wD8AAAAApBV2v4WDwD8AAAAAMcSZv6Movz8BAAAAQ5qyvwfavz8BAAAAMkG+vzOswD8AAAAApqjUv8K5wD8AAAAAHhDrv1HHwD8AAAAAybsAwODUwD8AAAAAg+8LwG/iwD8AAAAAPyMXwP7vwD8AAAAA+VYiwI79wD8AAAAALsg2wHjYvT8BAAAAc39DwKmltT8BAAAAumdMwInRoz8BAAAAzNBPwPzGiz8BAAAAelRMwAHJYT8BAAAAPxZGwJmKNj8BAAAAQQ0+wHeuGz8AAAAAXgg0wObqBD8AAAAA/+4rwGTsyz4AAAAAoNUjwPwCjj4AAAAAQrwbwCwzID4AAAAAgN8QwArXIzwBAAAA\f"
+    rightTrackChain: "szQMwAAAAAABAAAA1oCovwAAAAABAAAAaPjvvgAAAAABAAAAMJ61PgAAAAABAAAAUGSZPwAAAAABAAAAbOsDQAAAAAABAAAAIOALQG8SAzwBAAAAKZ4UQO7Awz0AAAAACAAeQO7AQz4AAAAA5mEnQLLQkj4AAAAAxMMwQO7Awz4AAAAAoiU6QCqx9D4AAAAAUn9HQAWJET8BAAAA8yRTQDERPz8BAAAArBtZQCz1gj8BAAAAyotVQNaonT8BAAAAn3ZKQAGjsz8BAAAAjX0/QNsguD8BAAAA6bgtQMdmvz8AAAAAnoUiQFZ0vz8AAAAAU1IXQOWBvz8AAAAACB8MQHSPvz8AAAAAvOsAQAOdvz8AAAAA43DrP5Gqvz8AAAAA2crfP6tPvj8BAAAAgkXEPzpdvj8BAAAAID2oPz7Tvz8AAAAAitaRP83gvz8AAAAA6N92P1zuvz8AAAAAuhJKP+v7vz8AAAAAjEUdP3oJwD8AAAAAwPDgPggXwD8AAAAA6cCDPvpfvz8BAAAAhaaqPcRMvz8BAAAAIHmvvbU/wD8AAAAAoHiFvkRNwD8AAAAA+BLfvtNawD8AAAAAqFYcv2JowD8AAAAA1CNJv/F1wD8AAAAABPF1v4CDwD8AAAAA4qqYv11Jvz8BAAAA+Kayv//Zvz8BAAAARiy+vyyswD8AAAAA2pLUv7u5wD8AAAAAcvnqv0rHwD8AAAAAA7AAwNnUwD8AAAAAT+MLwGjiwD8AAAAAmRYXwPfvwD8AAAAA5UkiwIX9wD8AAAAAlwMuwLcLwT8BAAAA4DtAwNyCuj8BAAAAlGFLwJ+opz8BAAAAzNBPwPzGiz8BAAAAelRMwAbJYT8BAAAAjl9FwJbgNT8BAAAAv0M9wCJ5Hz8AAAAAYbs1wGKi/D4AAAAABDMuwH5Suj4AAAAApqomwDQFcD4AAAAAXk4XwFg5NDwBAAAA\f"
+    trackBendingInfo:
+        frontDriveWheel: false
+        upperMin: 0.074074
+        upperFactor: 0.192139
+        frontFactor: 0.354700
+        backFactor: 0.398305
+        lengthPower: 0.500000
+        speed: 1.100000
+    trackLayingInfo:
+        bendingFactor: 1.000000
+        lengthPower: 1.400000
+        pointCountPower: 0.600000
+        pressurePower: 0.600000
+        primaryPower: 1.000000
+chassis:
+    textureScale:  -0.590000 
+detachedTurret:
+    cylinderPos: [0.000000, -0.063000, 1.225000]
+    cylinderXYScale: 1.099000
+    turret_01:
+        shouldClipGun: false
+        clippingPlaneZPos: 1.760000
+        textureScaleFactor: 0.655000
+collision:
+    hull:
+        points: [-0.026624, -0.009128, -1.234978]
+        bbox: 
+            min: [-1.235649, -3.327533, -0.798051]
+            max: [1.257832, 3.449953, 0.728913]
+        averageThickness: 
+            turret_01: 136.077072
+    chassis:
+        points: [0.002564, -0.020305, -0.002626]
+        bbox: 
+            min: [-1.810476, -3.237894, 0.000000]
+            max: [1.810476, 3.342479, 1.503115]
+    turret_01:
+        points: [-0.002395, -0.559147, -1.734338]
+        bbox: 
+            min: [-1.251029, -2.132162, -0.292592]
+            max: [1.252706, 1.312692, 1.163325]
+    gun_01:
+        points: [0.000000, -1.425766, -2.157642]
+        bbox: 
+            min: [-0.488408, -1.038529, -0.374544]
+            max: [0.525587, 4.193766, 0.448884]
